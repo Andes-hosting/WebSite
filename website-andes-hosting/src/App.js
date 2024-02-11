@@ -1,24 +1,46 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+
+import {BrowserRouter, Routes, Route, useParams} from 'react-router-dom'
+
+/* PAGES */
+import Header from './components/header/Header';
+import Footer from './components/footer/Footer';
+import Home from './pages/home/Home';
+import AboutUs from './pages/about/AboutUs'
+import FAQ from './pages/faq/FAQ'
+import Games from './pages/games/Games'
+import Guides from './pages/guides/Guides'
+import MinecraftHosting from './pages/minecrafthosting/MinecraftHosting'
+import Plans from './pages/plans/Plans'
+import Support from './pages/support/Support';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+        <header>
+            <Routes>
+                <Route path='*' element={<Header/>} />
+            </Routes>
+        </header>
+        <main>
+            <Routes>
+                <Route path='/' element={<Home/>} />
+                <Route path='/aboutUs' element={<AboutUs/>} />
+                <Route path='/faq' element={<FAQ/>} />
+                <Route path='/games' element={<Games/>} />
+                <Route path='/guides' element={<Guides/>} />
+                <Route path='/minecraftHosting' element={<MinecraftHosting/>} />
+                <Route path='/plans' element={<Plans/>} />
+                <Route path='/support' element={<Support/>} />
+            </Routes>
+        </main>
+        <footer>
+            <Routes>
+                <Route path='*' element={<Footer/>} />
+            </Routes>
+        </footer>
+    </BrowserRouter>
   );
 }
 

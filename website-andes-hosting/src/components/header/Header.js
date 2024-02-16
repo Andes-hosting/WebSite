@@ -1,8 +1,13 @@
 import React from 'react'
+import Navbar from '../navbar/NavBar.js'
+import CarouselHeader from '../carousel/Carousel.js'
 
 function Header() {
   return (
-    <div>Header</div>
+    <>
+      <Navbar/>
+      <CarouselHeader/>
+    </>  
   )
 }
 

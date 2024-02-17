@@ -1,8 +1,10 @@
 import React from 'react'
+import GameListContainer from '../../components/gameListContainer/GameListContainer'
+
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <GameListContainer/>
   )
 }
 

@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 
-import './Navbar.scss'
+import './NavBar.scss'
 import logo from '../../img/logo_andes.png'
 
 const NavBar = () => {
@@ -12,7 +12,7 @@ const NavBar = () => {
       <Navbar>
         <Container className='container'>
 
-          <Navbar.Brand href="home"><img src={logo}/></Navbar.Brand>
+          <Navbar.Brand href="home"><img src={logo} alt='Andes Hosting'/></Navbar.Brand>
         
           <Nav className="me-auto nav" >
             <Nav.Link href="Minecraft hosting" className='navLinks'>Minecraft hosting</Nav.Link>

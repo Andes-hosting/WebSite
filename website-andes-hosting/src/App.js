@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.scss';
 
-import {BrowserRouter, Routes, Route, useParams} from 'react-router-dom'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 /* PAGES */
 import Header from './components/header/Header';

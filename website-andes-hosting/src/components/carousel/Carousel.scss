@@ -1,0 +1,37 @@
+@import './../../variables';
+
+.carouselContainer{
+    width: 100vw !important;
+    position: relative;
+    .carouselInfo{
+        position: absolute;
+        width: 27vw;
+        margin: 40px $sidesMargin;
+        z-index: 2;
+        font-family: $font;
+        color: $Color-white;
+        h1{
+            font-size: 24px !important;
+            font-weight: 700;
+        }
+        p{
+            font-size: 20px;
+            font-weight: 400;
+        }
+        span{
+            display: block;
+            font-size: 45px;
+            font-weight: 800;
+        }
+    }
+    .carousel-indicators{
+        display: none !important;
+    }
+    span{
+        display: none;
+    }
+}
+
+.imgs{
+    width: 100vw;
+}

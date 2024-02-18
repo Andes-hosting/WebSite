@@ -24,15 +24,15 @@ const CarouselHeader = () => {
 
             <Carousel interval={3000}>  
                 <Carousel.Item>
-                    <img className='imgs' src={palworld}/>    
+                    <img className='imgs' src={palworld} alt='Palworld'/>    
                 </Carousel.Item>
 
                 <Carousel.Item>
-                    <img className='imgs'  src={ark}/>
+                    <img className='imgs'  src={ark} alt='Ark'/>
                 </Carousel.Item>
 
                 <Carousel.Item>
-                    <img className='imgs' src={minecraft}/>
+                    <img className='imgs' src={minecraft} alt='Minecraft'/>
                 </Carousel.Item>
             </Carousel>
         </div>

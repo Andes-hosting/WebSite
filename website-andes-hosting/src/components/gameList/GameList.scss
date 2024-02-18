@@ -1,13 +1,11 @@
 .gameListRow {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); 
-    gap: 2px; 
+    display: flex;
   }
-
 
 .gameLogo {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px; // Ajusta el margen inferior según sea necesario
+    margin-bottom: 20px;
+    margin-top: 20px;
   }
   

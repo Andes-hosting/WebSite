@@ -7,7 +7,7 @@ const GameList = ({game}) => {
   return (
     <Row>
       <div className='gameLogo'>{game.logo}</div>
-      <div className='gameListRow'> {/* Contenedor para los componentes CardGame */}
+      <div className='gameListRow'> 
         {game.plans.map((plan, index) => (
           <Col key={index} xs={12} sm={6} lg={3}>
             <CardGame plan={plan} />

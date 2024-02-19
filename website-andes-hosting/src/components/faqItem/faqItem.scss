@@ -1,0 +1,50 @@
+@import './../../variables';
+
+.accordion-item{
+    font-family: $font;
+    background-color: transparent;
+    border: none;
+    padding-bottom: 45px;
+    &:focus{
+        border:none
+    }
+    
+    .accordion-body{
+        border-top: 1px solid white;
+        font-size: 16px;
+        font-weight: 400;
+        a{
+            text-decoration: none;
+            color: $Color-cyan;
+        }
+    }
+    
+    .accordion-header{
+        background-color: transparent;   
+        button:focus{
+            box-shadow:none;
+        }
+
+        .accordion-button::after{
+            /* change the arrow color at the url of SVG */
+            content: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27 fill=%27%23FFFFFF%27%3e%3cpath fill-rule=%27evenodd%27 d=%27M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z%27/%3e%3c/svg%3e") !important;
+        }
+
+        .accordion-button{
+            font-size: 22px;
+            font-weight: 400;
+            color: white;
+            border: none;
+            background-color: transparent;
+            &:focus{
+               box-shadow:none
+            }
+        }
+        .accordion-button:not(.collapsed){
+            box-shadow: none;
+        }
+    }
+    .accordion-collapse{
+        color: white;
+    }
+}

@@ -1,0 +1,13 @@
+@import './../../variables';
+
+.FAQContainer{
+    font-family: $font;
+    color: white;
+    margin: 15rem $sidesMargin !important;
+    .FAQtitle{
+        text-align: center;
+        font-size: 45px;
+        font-weight: 800;
+        margin-bottom: 50px;
+    }
+}

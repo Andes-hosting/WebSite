@@ -1,0 +1,49 @@
+@import './../../variables';
+
+.ptero-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: $font;
+    color: $Color-white;
+    text-align: center;
+    margin: 2vw $sidesMargin;
+    .ptero-title{
+        font-size: 45px;
+        font-weight: 800;
+        text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+    .ptero-text{
+        font-size: 20px;
+        font-weight: 400;
+        width: 80%;
+    }
+}
+
+.img-section-background{
+    background-image: url("../../img/stars_bg.png");
+    .img-container{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin: 2vw $sidesMargin;
+        font-family: $font;
+        font-size: 24px;
+        color:$Color-white;
+        font-weight: 400;
+     
+        .img-text{
+            text-align: left;
+            padding: 20px;
+        }
+        .img-text2{
+            text-align: right;
+            padding: 20px;
+        }
+        .img-ptero{
+            width: 540px;
+            height: 300px;
+        }
+    }
+}

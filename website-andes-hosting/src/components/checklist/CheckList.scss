@@ -1,7 +1,7 @@
 @import './../../variables';
 
 .check-list {
-    margin-left: $sidesMargin;
+    margin: 15rem $sidesMargin !important;
     .check-list-title {
         font-family: $font;
         font-style: normal;

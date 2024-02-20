@@ -1,0 +1,67 @@
+@import './../../variables';
+
+.location-container{
+    margin-top: $sidesMargin;
+    padding: 0 10vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 580px;
+    background-image: url("../../img/stars_bg.png");
+    mix-blend-mode: plus-lighter;
+    .location-text-container{
+        font-family: $font;
+        font-style: normal;
+        color: $Color-white;
+        width: 46%;
+        .location-over-title{
+            font-size: 24px;
+            font-weight: 700;
+        }
+        .location-title{
+            font-size: 45px;
+            font-weight: 800;
+            text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .location-text{
+            font-size: 20px;
+            font-weight: 400;
+            span{
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+.about-container {
+    margin-bottom: $sidesMargin;
+    font-family: $font;
+    font-style: normal;
+    color: $Color-white;
+    text-align: center;
+    width: 100%;
+    height: 580px;
+    background-image: url("../../img/stars_bg.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    mix-blend-mode: plus-lighter;
+    .about-title {
+        font-size: 45px;
+        font-weight: 800;
+        text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+        width: 73%;
+    }
+    .about-text {
+        font-size: 20px;
+        font-weight: 500;
+        width: 73%;
+        span{
+            font-weight: 700;
+        }
+    }
+}

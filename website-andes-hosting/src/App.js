@@ -25,13 +25,6 @@ function App() {
         <main>
             <Routes>
                 <Route path='/' element={<Home/>} />
-                <Route path='/aboutUs' element={<AboutUs/>} />
-                <Route path='/faq' element={<FAQ/>} />
-                <Route path='/games' element={<Games/>} />
-                <Route path='/guides' element={<Guides/>} />
-                <Route path='/minecraftHosting' element={<MinecraftHosting/>} />
-                <Route path='/plans' element={<Plans/>} />
-                <Route path='/support' element={<Support/>} />
             </Routes>
         </main>
         <footer>

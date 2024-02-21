@@ -1,0 +1,12 @@
+@import './../../variables';
+
+.info-link-container{
+    margin-top: 15px;
+    .info-link{
+        color: $Color-white;
+        font-family: $font;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+}

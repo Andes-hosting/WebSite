@@ -1,0 +1,12 @@
+@import './../../variables';
+
+.check-list-item {
+    display: flex;
+    font-family: $font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: $Color-white;
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}

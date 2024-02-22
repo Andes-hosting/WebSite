@@ -1,6 +1,6 @@
 const FAQ = [
     {question:'¿Cómo puedo contactar con alguien de soporte?', answer: `Puedes contactarte con nosostros siguiendo <a href="#">este enlace</a>. Nuestro equipo está listo para ayudarte a través de WhatsApp, Email y Telegram.`},
-    {question:'¿Cuánto timepo demora en crearse mi servidor?', answer:'Después de hablar con nuestros agentes y seleccionar tu servidor, completaras el formulario que te enviaremos por mensaje privado. En minutos tu servidor estará listo.'},
+    {question:'¿Cuánto tiempo demora en crearse mi servidor?', answer:'Después de hablar con nuestros agentes y seleccionar tu servidor, completaras el formulario que te enviaremos por mensaje privado. En minutos tu servidor estará listo.'},
     {question:'¿Cómo elijo el plan adecuado para mis necesidades?', answer:'Si tienes dudas sobre qué plan elegir, contáctanos directamente a través de <a href="#">este enlace</a> y te ayudaremos a elegir el adecuado para ti.'},
     {question:'¿Cuáles son las opciones de pago disponibles?', answer:'Aceptamos transferencias directas en pesos chilenos (CLP) si tienens cuenta bancaria en chile. También puedes pagar a través de PayPal en dólares (USD).'},
     {question:'¿Es posible aumentar los recursos de mi servidor después de la compra?', answer:'Sí, puedes aumentar los recursos de tu servidor y se te cobrará el proporcional de los recursos adicionales durante el resto de tiempo que queda de tu plan contratado.'},

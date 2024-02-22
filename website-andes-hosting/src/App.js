@@ -15,11 +15,13 @@ import Plans from './pages/plans/Plans'
 import Support from './pages/support/Support';
 
 function App() {
-  return (
+    return (
+    
     <BrowserRouter>
         <header>
             <Routes>
                 <Route path='*' element={<Header/>} />
+                
             </Routes>
         </header>
         <main>
@@ -33,7 +35,8 @@ function App() {
             </Routes>
         </footer>
     </BrowserRouter>
-  );
+    
+    );
 }
 
 export default App;

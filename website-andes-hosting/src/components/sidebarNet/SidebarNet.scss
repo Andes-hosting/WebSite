@@ -1,0 +1,25 @@
+.sidebarContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px 0px 0px 10px;
+    gap: 15px;
+    position: fixed;
+    right: 0;
+    height: auto;
+    background-color: #29033B90;
+    z-index: 10;
+    top: 30vh;
+    padding: 10px 0;
+    a{
+        height: auto;
+        img{
+            padding: 12px;
+            opacity: 68%;
+            width: 70px;
+            height: auto;
+            &:hover{opacity: 1;}
+        }
+    }
+}

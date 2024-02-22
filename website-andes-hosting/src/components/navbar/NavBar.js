@@ -21,7 +21,6 @@ const NavBar = () => {
             <Nav.Link href="¿Quiénes somos?" className='navLinks'>¿Quiénes somos?</Nav.Link>
             <Nav.Link href="Soporte" className='navLinks'>Soporte</Nav.Link>
           </Nav>
-
         </Container>
       </Navbar>
     </>

@@ -5,16 +5,33 @@ import faq from '../../faq'
 import './FAQ.scss'
 
 const FAQ = () => {
+  //creo 2 columnas indemendientes 
+  const totalItems = faq.length;
+  const halfItems = Math.ceil(totalItems / 2);
+  const leftColumn = faq.slice(0, halfItems);
+  const rightColumn = faq.slice(halfItems, totalItems);
+
   return (
     <div className="FAQContainer">
       <h2 className='FAQtitle'>PREGUNTAS FRECUENTES</h2>
-      <Row>
-        {faq.map((item, index) => (
-          <Col key={index} xs={12} sm={6} lg={6}>
-            <FaqItem eventKey={index} question={item.question} answer={item.answer} />
+
+      <div className="FAQAcordionsContainer">
+        
+        <Row>
+          <Col xs={12} sm={6} lg={6}>
+            {leftColumn.map((item, index) => (
+              <FaqItem key={index} eventKey={index} question={item.question} answer={item.answer} />
+            ))}
           </Col>
-        ))}
-      </Row>
+
+          <Col xs={12} sm={6} lg={6}>
+            {rightColumn.map((item, index) => (
+              <FaqItem key={index + halfItems} eventKey={index + halfItems} question={item.question} answer={item.answer} />
+            ))}
+          </Col>
+        </Row>
+      </div>
+
     </div>
   )
 }

@@ -1,0 +1,23 @@
+@import './../../variables';
+
+.container-benefits-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .benefits-title{
+        font-family: $font;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 40.5px;
+        color: $Color-white;
+        text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        margin: 5vw;
+    }
+    .benefits-container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+

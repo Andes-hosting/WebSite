@@ -15,11 +15,9 @@ const NavBar = () => {
           <Navbar.Brand href="home"><img src={logo} alt='Andes Hosting'/></Navbar.Brand>
         
           <Nav className="me-auto nav" >
-            <Nav.Link href="Minecraft hosting" className='navLinks'>Minecraft hosting</Nav.Link>
-            <Nav.Link href="Juegos" className='navLinks'>Juegos</Nav.Link>
             <Nav.Link href="Planes" className='navLinks'>Planes</Nav.Link>
             <Nav.Link href="¿Quiénes somos?" className='navLinks'>¿Quiénes somos?</Nav.Link>
-            <Nav.Link href="Soporte" className='navLinks'>Soporte</Nav.Link>
+            <Nav.Link href="Soporte" className='navLinks'>FAQ</Nav.Link>
           </Nav>
         </Container>
       </Navbar>

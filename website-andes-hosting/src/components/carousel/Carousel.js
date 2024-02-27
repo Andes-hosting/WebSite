@@ -22,7 +22,7 @@ const CarouselHeader = () => {
                 </Btn>
             </div>
 
-            <Carousel interval={3000}>  
+            <Carousel pause={false} fade interval={3000}>  
                 <Carousel.Item>
                     <img className='imgs' src={palworld} alt='Palworld'/>    
                 </Carousel.Item>

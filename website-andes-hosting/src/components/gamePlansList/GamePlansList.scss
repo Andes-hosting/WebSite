@@ -1,3 +1,9 @@
+@import './../../variables';
+
+.plansListContainer{
+  margin: 20px $sidesMargin 5% $sidesMargin;
+}
+
 .gameListRow {
     display: flex;
   }
@@ -7,5 +13,6 @@
     justify-content: center;
     margin-bottom: 20px;
     margin-top: 20px;
+    height: 5rem;
   }
   

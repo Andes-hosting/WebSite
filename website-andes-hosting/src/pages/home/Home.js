@@ -1,13 +1,13 @@
 import React from 'react'
-import GameListContainer from '../../components/gameListContainer/GameListContainer'
 import FAQ from '../faq/FAQ'
 import AboutUs from '../about/AboutUs'
+import Plans from '../plans/Plans'
 
 
 const Home = () => {
   return (
     <>
-      <GameListContainer/>
+      <Plans/>
       <AboutUs/>
       <FAQ />
       

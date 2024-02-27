@@ -1,0 +1,26 @@
+@import './../../variables';
+
+.plans{
+    position: relative;
+    color: white;
+    text-align: center;
+    font-family: $font;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    p{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    h2{
+        font-size: 40px;
+        font-weight: 800;
+    }
+
+    #dropdown-basic-button{
+        position: absolute;
+        right: $sidesMargin ;
+        right: 500px ;
+        top:0;
+        z-index: 10
+    }
+}

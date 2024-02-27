@@ -17,5 +17,19 @@
             text-align: center;
         }
     }
+    .carousel-indicators{
+        button{
+            width: 15px;
+            height: 15px;
+            border: $Color-cyan;
+            border-radius: 50px !important;
+            margin: 0 5px;
 
+        }
+        .active{
+            background-color: $Color-cyan;
+            color: $Color-cyan;
+        
+        }
+    }
 }

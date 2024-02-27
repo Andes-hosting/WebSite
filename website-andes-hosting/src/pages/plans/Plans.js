@@ -9,13 +9,15 @@ const Plans = () => {
 
   return (
     <div className="plans">
-      <p>TENEMOS UN PLAN PARA CADA NECESIDAD</p>
-      <h2>EXPLORA NUESTRAS OFERTAS!</h2>
-
+      
       <DropdownButton id="dropdown-basic-button" title={ currency==='CLP'? currency+' $' : currency}>
         <Dropdown.Item onClick={()=>setCurrency('CLP')}>CLP $</Dropdown.Item>
         <Dropdown.Item onClick={()=>setCurrency('USD')}>USD</Dropdown.Item>
       </DropdownButton>
+
+      <p>TENEMOS UN PLAN PARA CADA NECESIDAD</p>
+      <h2>EXPLORA NUESTRAS OFERTAS!</h2>
+
 
       <GamePlansCarousel currency={currency}/>
     </div>

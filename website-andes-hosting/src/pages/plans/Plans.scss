@@ -18,9 +18,33 @@
 
     #dropdown-basic-button{
         position: absolute;
-        right: $sidesMargin ;
-        right: 500px ;
-        top:0;
-        z-index: 10
+        right: $sidesMargin;
+        top: 50px;
+        z-index: 10;
+
+        background-color: #160020;
+        border: none;
+        border-radius: 5px;
+
+        &:hover{
+            color: white;
+        }
+    }
+
+    .dropdown-menu{
+        background-color: #160020;
+        width: 67px;
+
+        .dropdown-item{
+            width: 67px;
+            color: white;
+
+            &:hover{
+                background-color: #3F055B15;
+            }
+        }
+    }
+    .show{
+        /*  */
     }
 }

@@ -3,7 +3,7 @@ import ttIcon from '../../img/icons/tiktok.svg'
 
 const TtIcon = () => {
   return (
-    <a href="#"><img src={ttIcon} alt="Icono tik tok" /> </a>
+    <a href="https://shlink.andes-hosting.com/FCKcq"><img src={ttIcon} alt="Icono tik tok" /> </a>
   )
 }
 

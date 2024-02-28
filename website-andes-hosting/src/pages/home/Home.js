@@ -7,10 +7,15 @@ import Plans from '../plans/Plans'
 const Home = () => {
   return (
     <>
-      <Plans/>
-      <AboutUs/>
-      <FAQ />
-      
+      <section id="planes">
+        <Plans />
+      </section>
+      <section id="about">
+        <AboutUs />
+      </section>
+      <section id="faq">
+        <FAQ />
+      </section>
     </>
   )
 }

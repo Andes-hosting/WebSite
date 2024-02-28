@@ -1,6 +1,7 @@
 @import './../../variables';
 
 .carouselPlansContainer{
+    position: relative;
     font-family: $font;
     .game-list-container {
         width: 100%; 
@@ -15,6 +16,43 @@
             font-size: 38.7px;
             color: $Color-white;
             text-align: center;
+        }
+    }
+    .carousel-indicators{
+        button{
+            width: 15px;
+            height: 15px;
+            border: $Color-cyan;
+            border-radius: 50px !important;
+            margin: 0 5px;
+
+        }
+        .active{
+            background-color: $Color-cyan;
+            color: $Color-cyan;
+        
+        }
+    }
+
+    .carousel-control-next{
+        width: auto;
+        height: fit-content;
+        position: absolute;
+        top: 50%;
+        right: 7%;
+        .carousel-control-next-icon{
+            background-image: url("../../img/carousel/carousel-next.svg");
+            
+        }
+    }
+    .carousel-control-prev{
+        width: auto;
+        height: fit-content;
+        position: absolute;
+        top: 50%;
+        left: 7%;
+        .carousel-control-prev-icon{
+            background-image: url("../../img/carousel/carousel-prev.svg");
         }
     }
 

@@ -2,6 +2,7 @@ body {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.9) 0%, rgba(42, 0, 62, 0.9) 100%);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box
 }
 #root {
   position: relative;

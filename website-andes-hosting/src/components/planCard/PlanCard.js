@@ -5,15 +5,20 @@ import Btn from '../btn/Btn.js'
 
 const PlanCard = ({plan, currency}) => {
   return (
-  <Card className="containerCard">
+  <Card className= { plan.prominent? "containerCard prominentCard" : "containerCard"} >
     <Card.Body className="containerCardBody">
+
       <div className="titleCardContainer">
         <Card.Title className="titlePack">PACK</Card.Title>
         <Card.Title className="titleCard">{plan.name}</Card.Title>
+        {plan.prominent? 
+        <Card.Title className="prominentLabel">EL MÁS ELEGIDO</Card.Title>
+        :
+        ''
+        }
       </div>
 
       <div className="priceContainer">
-
         {plan.name === 'PERSONALIZADO'?
         <>
           <Card.Subtitle className="textRam">{plan.ram} <span>RAM</span></Card.Subtitle>
@@ -22,7 +27,6 @@ const PlanCard = ({plan, currency}) => {
         :
           <Card.Subtitle className="textRam">{plan.ram + ' GB '}<span>RAM</span></Card.Subtitle> 
         }
-
         {plan.name === 'PERSONALIZADO'? 
         '' 
         :
@@ -34,7 +38,9 @@ const PlanCard = ({plan, currency}) => {
         <Card.Text className="textBody"> ALMACENAMIENTO: {plan.storage} GB</Card.Text>
         <Card.Text className="textBody"> JUGADORES RECOMENDADOS: {plan.recomendedPlyers} </Card.Text>
       </div>
+
       <Btn text="¡ME INTERESA!"/>
+
     </Card.Body>
   </Card>
   )

@@ -1,0 +1,53 @@
+@import './../../variables';
+
+.footerConainer{
+    padding: 0 $sidesMargin;
+    padding-top: 8%;
+    padding-bottom: 2%;
+    background: linear-gradient(180deg,transparent 0%, rgba(0, 0, 0, 0.50) 30%, rgba(0, 0, 0, 0.70) 100%);
+    .links{
+        display: flex;
+        justify-content: space-between;
+        align-items:start;
+        gap: 15px;
+        transition: .3s;
+        font-family: $font;
+
+        div{
+            display: flex;
+            flex-direction: column;
+            width: auto;
+
+            h3{
+                color: white;
+                font-weight: 700;
+                font-size: 18px;
+                margin-bottom: 25px;
+            }
+            a{
+                text-decoration: none;
+                font-weight: 400;
+                font-size: 18px;
+                color: white;
+                width: fit-content; 
+                padding: 5px 0;
+                opacity: 0.6;
+                &:hover{
+                    opacity: 1;
+                }  
+            }
+        }
+    }
+
+    .copyright{
+        margin-top: 6%;
+        p{
+            color: white;
+            text-align: center;
+            font-weight: 400;
+            font-size: 16px;
+            margin: 0;
+        }
+    }
+
+}

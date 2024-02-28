@@ -1,6 +1,7 @@
 @import './../../variables';
 
 .carouselPlansContainer{
+    position: relative;
     font-family: $font;
     .game-list-container {
         width: 100%; 
@@ -32,4 +33,27 @@
         
         }
     }
+
+    .carousel-control-next{
+        width: auto;
+        height: fit-content;
+        position: absolute;
+        top: 50%;
+        right: 7%;
+        .carousel-control-next-icon{
+            background-image: url("../../img/carousel/carousel-next.svg");
+            
+        }
+    }
+    .carousel-control-prev{
+        width: auto;
+        height: fit-content;
+        position: absolute;
+        top: 50%;
+        left: 7%;
+        .carousel-control-prev-icon{
+            background-image: url("../../img/carousel/carousel-prev.svg");
+        }
+    }
+
 }

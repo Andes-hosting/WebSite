@@ -21,10 +21,24 @@
         right: $sidesMargin;
         top: 50px;
         z-index: 10;
-
-        background-color: #160020;
+        background-color: rgba(41, 3, 59, 0.5647058824);
         border: none;
         border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 6%;
+        
+        &::after{
+            transition: .2s;
+            border: none;
+            content: url('../../img/carousel/dropdown-closed-arrow.svg');
+        }
+        &.show::after{
+            transition: .2s;
+            transform: rotate(180deg);
+
+        }
 
         &:hover{
             color: white;
@@ -32,19 +46,18 @@
     }
 
     .dropdown-menu{
-        background-color: #160020;
-        width: 67px;
-
+        background-color: rgba(41, 3, 59, 0.5647058824);
+        min-width: 6%;
+        
         .dropdown-item{
-            width: 67px;
             color: white;
-
+            
             &:hover{
-                background-color: #3F055B15;
+                background-color: #3F055B;
             }
         }
     }
     .show{
-        /*  */
+       
     }
 }

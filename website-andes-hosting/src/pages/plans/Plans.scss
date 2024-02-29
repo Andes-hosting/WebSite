@@ -12,14 +12,15 @@
         font-weight: 400;
     }
     h2{
-        font-size: 40px;
+        padding-top: 3%;
+        font-size: 3vw;
         font-weight: 800;
     }
 
     #dropdown-basic-button{
         position: absolute;
         right: $sidesMargin;
-        top: 50px;
+        top: 100px;
         z-index: 10;
         background-color: rgba(41, 3, 59, 0.5647058824);
         border: none;

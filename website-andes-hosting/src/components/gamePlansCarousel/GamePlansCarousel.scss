@@ -1,8 +1,12 @@
 @import './../../variables';
 
 .carouselPlansContainer{
+    padding-top: 3%;
     position: relative;
     font-family: $font;
+    .gameListRow{
+        padding-top: 3%;
+    }
     .game-list-container {
         width: 100%; 
         display: flex;

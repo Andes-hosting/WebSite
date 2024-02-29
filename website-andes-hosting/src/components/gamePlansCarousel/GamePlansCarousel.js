@@ -23,20 +23,6 @@ const GamePlansCarousel = ({currency='CLP'}) => {
       </Carousel>
   </div>
 
-
-
-/*     <div className="game-list-container">
-    <Container className="game-list-container">
-      <Row>
-        <Col>
-          <h2 className="titlePlan">NUESTROS PLANES</h2>
-          <GamePlansList game={games.minecraft} />
-          <GamePlansList game={games.ark} />
-          <GamePlansList game={games.palworld} />
-        </Col>
-      </Row>
-    </Container>
-    </div> */
   )
 
 }

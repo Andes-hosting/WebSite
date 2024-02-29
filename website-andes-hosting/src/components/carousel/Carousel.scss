@@ -6,6 +6,8 @@
     .carouselInfo{
         position: absolute;
         width: 27vw;
+        top:40%;
+        transform: translate(0,-50%);
         margin: 40px $sidesMargin;
         z-index: 2;
         font-family: $font;

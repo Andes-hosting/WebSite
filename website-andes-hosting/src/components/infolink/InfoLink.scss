@@ -10,3 +10,17 @@
     }
 
 }
+@media only screen and (min-width: 768px) and (max-width: 1000px){
+    .info-link-container{
+        .info-link{
+            font-size: 16px;
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    .info-link-container{
+        .info-link{
+            font-size: 14px;
+        }
+    }
+}

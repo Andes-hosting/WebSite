@@ -47,3 +47,58 @@
         }
     }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1000px){
+    .ptero-container{
+        img{
+            width: 70%;
+        }
+        .ptero-title{
+            font-size: 30px;
+        }
+        .ptero-text{
+            font-size: 16px;
+        }
+    }
+
+    .img-section-background{
+        .img-container{
+            font-size: 18px;
+            .img-ptero{
+                width: 440px;
+                height: 200px;
+            }
+        }
+    }
+
+}
+@media only screen and (max-width: 768px) {
+    .ptero-container{
+        img{
+            width: 70%;
+        }
+        .ptero-title{
+            font-size: 24px;
+        }
+        .ptero-text{
+            font-size: 14px;
+        }
+    }
+
+    .img-section-background{
+        .img-container{
+            font-size: 16px;
+            .img-text{
+                padding: 10px;
+            }
+            .img-text2{
+                padding: 10px;
+            }
+            .img-ptero{
+                width: 360px;
+                height: 120px;
+            }
+        }
+    }
+
+}

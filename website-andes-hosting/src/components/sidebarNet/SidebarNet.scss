@@ -23,3 +23,23 @@
         }
     }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
+    .sidebarContainer{
+        top: 20vh;
+        a{
+            img{
+                width: 50px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {    .sidebarContainer{
+    top: 20vh;
+    a{
+        img{
+            width: 50px;
+        }
+    }
+}}

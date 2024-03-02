@@ -85,7 +85,7 @@
 .prominentCard{
     border: #F5F5F5 3px Solid;
     /* offset-x | offset-y | blur-radius | spread-radius | color */
-    box-shadow: 3px 3px 15px 2px #00CEC940, -3px -3px 15px 2px #00CEC940;
+    box-shadow: 3px 3px 15px 2px #edfcfb40, -3px -3px 15px 2px #00CEC940;
     &:hover {
         box-shadow: 3px 3px 15px 2px #00CEC960, -3px -3px 15px 2px #00CEC960;
     }
@@ -94,3 +94,66 @@
 
 
 
+  @media only screen and (min-width: 768px) and (max-width: 1000px) {
+
+    .containerCard {
+        width: 170px;
+        height: 459px;
+        .containerCardBody{
+            .titleCard {
+                font-size: 20px;
+            }
+            .titlePack {
+                font-size: 18px;
+            }
+            .textRam{
+                font-size: 30px;
+            }
+            .textPrice{
+                font-size: 40px;
+            }
+            .textBodyContainer{
+                width: 165px;
+            }
+        }
+
+    }
+    
+  }
+
+
+@media only screen and (max-width: 768px) {
+    .containerCard {
+        width: 420px;
+        height: 130px;
+        .containerCardBody{
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0;
+            .titleCard {
+                font-size: 16px;
+            }
+            .titlePack {
+                font-size: 14px;
+            }
+            .textRam{
+                font-size: 14px;
+            }
+            .textPrice{
+                font-size: 16px;
+                width: auto;
+                height: auto;
+            }
+            .textBodyContainer{
+                width: 120px;
+                .textBody{
+                    font-size: 11px;
+                }
+            }
+        }
+        .prominentLabel{
+            top: 5%;
+        }
+    }
+}

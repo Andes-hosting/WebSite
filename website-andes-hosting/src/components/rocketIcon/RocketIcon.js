@@ -4,7 +4,7 @@ import rocket from '../../img/jam_rocket.png'
 
 const RocketLogo = () => {
   return (
-    <img src={rocket} alt='Rocket icon'/>
+    <img className="rocket" src={rocket} alt='Rocket icon'/>
   )
 }
 

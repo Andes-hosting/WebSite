@@ -11,13 +11,23 @@
         font-weight: 800;
         font-size: 40.5px;
         color: $Color-white;
-        text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.1);
         text-align: center;
         margin: 5vw;
     }
     .benefits-container{
         display: flex;
         flex-direction: column;
+    }
+}
+
+@media only screen  and (max-width: 1100px) {
+    .benefits-container{
+        padding-left: 20vw;
+    }
+    .container-benefits-page{
+        .benefits-title{
+            font-size: 30px;
+        }
     }
 }
 

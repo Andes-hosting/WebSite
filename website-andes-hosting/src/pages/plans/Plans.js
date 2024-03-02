@@ -16,7 +16,7 @@ const Plans = () => {
       </DropdownButton>
 
       <p>TENEMOS UN PLAN PARA CADA NECESIDAD</p>
-      <h2>EXPLORA NUESTRAS OFERTAS!</h2>
+      <h2>¡EXPLORA NUESTRAS OFERTAS!</h2>
       <GamePlansCarousel currency={currency}/>
     </div>
   )

@@ -17,16 +17,19 @@ const NavBar = () => {
 
   return (
     <>
-      <Navbar>
+      <Navbar expand="lg">
         <Container className='container'>
         <Navbar.Brand as={Link} to='/'>
           <img src={logo} alt='Andes Hosting' />
         </Navbar.Brand>
-        <Nav className="me-auto nav">
-          <Link to="/" onClick={() => smoothScroll('planes')} className='navLinks'>Planes</Link>
-          <Link to="/" onClick={() => smoothScroll('about')} className='navLinks'>¿Quiénes somos?</Link>
-          <Link to="/" onClick={() => smoothScroll('faq')} className='navLinks'>FAQ</Link>
-        </Nav>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto nav">
+            <Link to="/" onClick={() => smoothScroll('planes')} className='navLinks'>Planes</Link>
+            <Link to="/" onClick={() => smoothScroll('about')} className='navLinks'>¿Quiénes somos?</Link>
+            <Link to="/" onClick={() => smoothScroll('faq')} className='navLinks'>FAQ</Link>
+          </Nav>
+        </Navbar.Collapse>
         </Container>
       </Navbar>
     </>

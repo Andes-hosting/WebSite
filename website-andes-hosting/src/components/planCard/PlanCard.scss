@@ -2,7 +2,7 @@
 
 .containerCard {
     position: relative;
-    width: 250px;
+    width: 20%;
     height: 459px;
     background: linear-gradient(180deg, #3e055b8a 0%, rgba(27, 9, 36, 0.9) 50.4%, #3e055b8a 100%);
     border: 3px solid rgba(255, 255, 255, 0.05);
@@ -92,12 +92,26 @@
 }
 
 
+@media only screen and (max-width: 1600px){
+    .containerCard {
+        width: 23%;
+    }
+}
+    
+@media only screen and (max-width: 1290px){
+        .gameListRow{
+            margin: 0 !important;
+            justify-items: center;
+            .containerCard{
+                width: 60%;
+            }
+        }
+}
 
 
   @media only screen and (min-width: 768px) and (max-width: 1000px) {
-
     .containerCard {
-        width: 170px;
+        width: 80% !important;
         height: 459px;
         .containerCardBody{
             .titleCard {
@@ -124,7 +138,8 @@
 
 @media only screen and (max-width: 768px) {
     .containerCard {
-        width: 420px;
+        width: 100% !important;
+        padding: 10px;
         height: 130px;
         .containerCardBody{
             flex-direction: row;

@@ -30,6 +30,7 @@
         align-items: center;
         justify-content: center;
         width: 6%;
+        min-width: 90px;
         
         &::after{
             transition: .2s;

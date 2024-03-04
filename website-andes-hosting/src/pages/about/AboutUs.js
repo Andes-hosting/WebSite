@@ -1,6 +1,8 @@
 import React from 'react'
 import "./AboutUs.scss"
 import map from "../../img/latam.png"
+import chile from '../../img/chile.png'
+
 import Pterodactyl from '../../components/pterodactyl/Pterodactyl'
 import Btn from '../../components/btn/Btn'
 import RocketIcon from '../../components/rocketIcon/RocketIcon'
@@ -13,7 +15,9 @@ const AboutUs = () => {
       <Benefits/>
       <div className='gradien'>
         <div className= "location-container">
-          <img src={map} alt="Sudamérica"/>
+
+          <img className='map' src={map} alt="Sudamérica"/>
+
           <div className="location-text-container">
             <h3 className="location-over-title">Tenemos</h3>
             <h2 className="location-title">LA UBICACIÓN IDEAL</h2>

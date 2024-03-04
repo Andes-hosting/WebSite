@@ -1,6 +1,7 @@
 @import './../../variables';
 
 .plans{
+    padding: 5vw 0;
     position: relative;
     color: white;
     text-align: center;
@@ -29,6 +30,7 @@
         align-items: center;
         justify-content: center;
         width: 6%;
+        min-width: 90px;
         
         &::after{
             transition: .2s;

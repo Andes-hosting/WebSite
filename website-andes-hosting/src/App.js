@@ -5,28 +5,31 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 /* PAGES */
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
-import Home from './pages/home/Home';
+import Layout from './pages/layout/Layout';
+
+import mountains from './img/mountains.png'
 
 function App() {
     return (
-    
-    <BrowserRouter>
-        <header>
-            <Routes>
-                <Route path='*' element={<Header/>} />
-            </Routes>
-        </header>
-        <main>
-            <Routes>
-                <Route path='/' element={<Home/>} />
-            </Routes>
-        </main>
-        <footer>
-            <Routes>
-                <Route path='*' element={<Footer/>} />
-            </Routes>
-        </footer>
-    </BrowserRouter>
+        <div className='appContainer'>
+            <BrowserRouter>
+                <header>
+                    <Routes>
+                        <Route path='*' element={<Header/>} />
+                    </Routes>
+                </header>
+                <main>
+                    <Routes>
+                        <Route path='/' element={<Layout/>} />
+                    </Routes>
+                </main>
+                <footer>
+                    <Routes>
+                        <Route path='*' element={<Footer/>} />
+                    </Routes>
+                </footer>
+            </BrowserRouter>
+        </div>
     
     );
 }

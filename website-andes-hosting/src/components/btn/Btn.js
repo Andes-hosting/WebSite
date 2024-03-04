@@ -2,12 +2,12 @@ import React from 'react'
 import './Btn.scss'
 
 
-const Btn = ({children, text}) => {
+const Btn = ({children, text, otherClass=''}) => {
   return (
-    <button  className="btn">
+    <a href='#' className={`btn ${otherClass}`}>
         {children}
         {text}
-    </button>
+    </a>
   )
 }
 

@@ -4,7 +4,7 @@ import AboutUs from '../about/AboutUs'
 import Plans from '../plans/Plans'
 
 
-const Home = () => {
+const Layout = () => {
   return (
     <>
       <section id="planes">
@@ -20,4 +20,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default Layout

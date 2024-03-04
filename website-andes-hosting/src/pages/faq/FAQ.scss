@@ -1,9 +1,11 @@
 @import './../../variables';
 
 .FAQContainer{
+    padding: 5vw 0;
     font-family: $font;
     color: white;
-    margin: 15rem $sidesMargin !important;
+    margin: 0 $sidesMargin !important;
+    margin-top: 15rem !important;
     .FAQtitle{
         text-align: center;
         font-size: 45px;

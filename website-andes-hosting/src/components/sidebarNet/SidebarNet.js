@@ -14,7 +14,6 @@ const SidebarNet = () => {
         <XICON/>
         <TtIcon/>
         <IgIcon/>
-
     </div>
   )
 }

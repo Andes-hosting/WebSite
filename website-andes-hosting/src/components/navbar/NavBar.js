@@ -5,27 +5,20 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './NavBar.scss'
 import logo from '../../img/logo_andes.png'
+import smoothScroll from '../../utils/smoothScroll';
 
 const NavBar = () => {
-  
-  const smoothScroll = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
     <>
       <Navbar expand="lg">
         <Container className='container'>
-          
+
           <Navbar.Brand as={Link} to='/'>
             <img src={logo} alt='Andes Hosting' />
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          
+
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto nav">
               <Link to="/" onClick={() => smoothScroll('planes')} className='navLinks'>Planes</Link>

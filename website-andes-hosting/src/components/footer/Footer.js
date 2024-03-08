@@ -1,29 +1,23 @@
 import React from 'react'
 import './Footer.scss'
+import { Link } from 'react-router-dom'
+import smoothScroll from '../../utils/smoothScroll'
 
 function Footer() {
   return (
     <section className='footerConainer'>
-
       <section className='links'>
-
-        <div className='minecraftHosting'>
-            <h3>MinecraftHosting</h3>
-            <a href='#'>Contratar un servidor</a>
-        </div>
-        
         <div className='juegos'>
           <h3>Juegos</h3>
-          <a href='#'>Minecraft</a>
-          <a href='#'>ARK</a>
-          <a href='#'>Palworld</a>
+          <Link to={"/"} onClick={() => smoothScroll('planes')}>Minecraft</Link>
+          <Link to={"/"} onClick={() => smoothScroll('planes')}>ARK</Link>
+          <Link to={"/"} onClick={() => smoothScroll('planes')}>Palworld</Link>
         </div>
 
         <div className='planes'>
           <h3>Planes</h3>
-          <a href='#'>Minecraft</a>
-          <a href='#'>ARK</a>
-          <a href='#'>Palworld</a>
+          <a href='#'>Planes Fijos</a>
+          <a href='#'>Planes Personalizados</a>
         </div>
 
         <div className='aboutUs'>
@@ -34,8 +28,16 @@ function Footer() {
         <div className='Soporte'>
           <h3>Soporte</h3>
           <a href='#'>Necesito ayuda</a>
-          <a href='#'>Guías y tutoriales</a>
           <a href='#'>Preguntas frecuentes</a>
+        </div>
+
+        <div className='RedesSociales'>
+          <h3>Redes Sociales</h3>
+          <a href='#'>Instagram</a>
+          <a href='#'>TikTok</a>
+          <a href='#'>Facebook</a>
+          <a href='#'>LinkedIn</a>
+          <a href='#'>GitHub</a>
         </div>
 
       </section>

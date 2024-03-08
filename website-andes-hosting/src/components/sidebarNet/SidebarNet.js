@@ -7,8 +7,8 @@ import FbIcon from '../FbIcon/FbIcon.js'
 const SidebarNet = () => {
   return (
     <div class="sidebarContainer">
-        <TtIcon/>
         <IgIcon/>
+        <TtIcon/>
         <FbIcon/>
     </div>
   )

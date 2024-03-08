@@ -3,26 +3,29 @@
 .container{
     padding: 0;
     display: flex;
-    margin: 10px $sidesMargin;
+    margin: 5px $sidesMargin;
     justify-content: space-between;
+    gap: 200px;
     align-items: center;
     .nav{
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         width: 100%;
         margin: 0 !important;
     }
     .navLinks{
         color: #D8D8D8 !important;
-        width: 146px;
+        width: auto;
         text-align: center;
         padding:  0px 5px !important;
         font-family: $font;
+        font-size: 24px;
+        font-weight: 500;
         text-decoration: none;
         margin-bottom: 5px;
         margin-top: 5px;
         &:hover{
-            font-weight: 600;
+            font-weight: 700;
         }
     }
 }

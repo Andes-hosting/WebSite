@@ -1,10 +1,10 @@
-FROM node:hydrogen-alpine
+FROM node:hydrogen-alpine AS react-build
 
-WORKDIR /andes-website/
-COPY website-andes-hosting/public/ /andes-website/public
-COPY website-andes-hosting/src/ /andes-website/src
-COPY website-andes-hosting/package.json /andes-website/
-
+WORKDIR /andes-website
+COPY website-andes-hosting/package.json .
 RUN npm install
+COPY website-andes-hosting/ .
+RUN npm run build
 
-CMD ["npm", "start"]
+FROM nginx:alpine
+COPY --from=react-build /andes-website/build /usr/share/nginx/html

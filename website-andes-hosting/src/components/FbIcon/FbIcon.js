@@ -3,7 +3,7 @@ import facebookIcon from '../../img/icons/facebook.svg'
 
 const FbIcon = () => {
     return (
-        <a href="#"><img src={facebookIcon} alt="Icono facebook" /> </a>
+        <a href="https://shlink.andes-hosting.com/XQRLu" target='_blank'><img src={facebookIcon} alt="Icono facebook" /> </a>
     )
 }
 

@@ -8,12 +8,14 @@ import Logo from '../logo/Logo';
 import smoothScroll from '../../utils/smoothScroll';
 
 const NavBar = () => {
+  const handleLogoClick = () => {
+    window.location.reload();
+  };
   return (
     <>
       <Navbar expand="lg">
         <Container className='container'>
-
-          <Navbar.Brand as={Link} to='/'>
+          <Navbar.Brand as={Link} to='/' onClick={handleLogoClick}>
             <Logo width={280} height={100} />
             {/* <img className='logo' src={logo} alt='Andes Hosting' /> */}
           </Navbar.Brand>

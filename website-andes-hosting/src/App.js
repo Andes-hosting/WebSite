@@ -7,7 +7,6 @@ import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 import Layout from './pages/layout/Layout';
 
-import mountains from './img/mountains.png'
 
 function App() {
     return (
@@ -30,7 +29,7 @@ function App() {
                 </footer>
             </BrowserRouter>
         </div>
-    
+
     );
 }
 

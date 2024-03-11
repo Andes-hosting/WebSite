@@ -1,0 +1,28 @@
+@import './../../variables';
+
+.btn{
+    background-color: $Color-cyan;
+    border-radius: 10px;
+    padding: 5px 20px;
+    gap: 12px;
+    font-family: $font;
+    font-size: 14px;
+    font-weight: 500;
+    &:hover{
+        background-color: $Color-cyan-hover;
+        color: black;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
+ .btn{
+    font-size: 12px;
+ }
+}
+
+@media only screen and (max-width: 768px) {
+    .btn{
+        font-size: 11px;
+     }
+
+}

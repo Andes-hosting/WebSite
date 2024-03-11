@@ -16,28 +16,28 @@ function Footer() {
 
         <div className='planes'>
           <h3>Planes</h3>
-          <a href='#'>Planes Fijos</a>
-          <a href='#'>Planes Personalizados</a>
+          <a href='https://shlink.andes-hosting.com/P8POu' target='_blank'>Planes Fijos</a>
+          <a href='https://shlink.andes-hosting.com/miFoG' target='_blank'>Planes Personalizados</a>
         </div>
 
         <div className='aboutUs'>
           <h3>¿Quiénes somos?</h3>
-          <a href='#'>¿Por qué Andes Hosting?</a>
+          <a href='#about'>¿Por qué Andes Hosting?</a>
         </div>
 
         <div className='Soporte'>
           <h3>Soporte</h3>
-          <a href='#'>Necesito ayuda</a>
-          <a href='#'>Preguntas frecuentes</a>
+          <a href='https://shlink.andes-hosting.com/kR3cx' target='_blank'>Necesito ayuda</a>
+          <a href='#faq'>Preguntas frecuentes</a>
         </div>
 
         <div className='RedesSociales'>
           <h3>Redes Sociales</h3>
-          <a href='#'>Instagram</a>
-          <a href='#'>TikTok</a>
-          <a href='#'>Facebook</a>
-          <a href='#'>LinkedIn</a>
-          <a href='#'>GitHub</a>
+          <a href='https://shlink.andes-hosting.com/LvEPt' target='_blank'>Instagram</a>
+          <a href='https://shlink.andes-hosting.com/FCKcq' target='_blank'>TikTok</a>
+          <a href='https://shlink.andes-hosting.com/XQRLu' target='_blank'>Facebook</a>
+          <a href='https://shlink.andes-hosting.com/Nx38s' target='_blank'>LinkedIn</a>
+          <a href='https://shlink.andes-hosting.com/UUQdF' target='_blank'>GitHub</a>
         </div>
 
       </section>

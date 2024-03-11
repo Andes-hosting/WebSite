@@ -1,41 +1,43 @@
 import React from 'react'
 import './Footer.scss'
+import { Link } from 'react-router-dom'
+import smoothScroll from '../../utils/smoothScroll'
 
 function Footer() {
   return (
     <section className='footerConainer'>
-
       <section className='links'>
-
-        <div className='minecraftHosting'>
-            <h3>MinecraftHosting</h3>
-            <a href='#'>Contratar un servidor</a>
-        </div>
-        
         <div className='juegos'>
           <h3>Juegos</h3>
-          <a href='#'>Minecraft</a>
-          <a href='#'>ARK</a>
-          <a href='#'>Palworld</a>
+          <Link to={"/"} onClick={() => smoothScroll('planes')}>Minecraft</Link>
+          <Link to={"/"} onClick={() => smoothScroll('planes')}>ARK</Link>
+          <Link to={"/"} onClick={() => smoothScroll('planes')}>Palworld</Link>
         </div>
 
         <div className='planes'>
           <h3>Planes</h3>
-          <a href='#'>Minecraft</a>
-          <a href='#'>ARK</a>
-          <a href='#'>Palworld</a>
+          <a href='https://shlink.andes-hosting.com/P8POu' target='_blank'>Planes Fijos</a>
+          <a href='https://shlink.andes-hosting.com/miFoG' target='_blank'>Planes Personalizados</a>
         </div>
 
         <div className='aboutUs'>
           <h3>¿Quiénes somos?</h3>
-          <a href='#'>¿Por qué Andes Hosting?</a>
+          <a href='#about'>¿Por qué Andes Hosting?</a>
         </div>
 
         <div className='Soporte'>
           <h3>Soporte</h3>
-          <a href='#'>Necesito ayuda</a>
-          <a href='#'>Guías y tutoriales</a>
-          <a href='#'>Preguntas frecuentes</a>
+          <a href='https://shlink.andes-hosting.com/kR3cx' target='_blank'>Necesito ayuda</a>
+          <a href='#faq'>Preguntas frecuentes</a>
+        </div>
+
+        <div className='RedesSociales'>
+          <h3>Redes Sociales</h3>
+          <a href='https://shlink.andes-hosting.com/LvEPt' target='_blank'>Instagram</a>
+          <a href='https://shlink.andes-hosting.com/FCKcq' target='_blank'>TikTok</a>
+          <a href='https://shlink.andes-hosting.com/XQRLu' target='_blank'>Facebook</a>
+          <a href='https://shlink.andes-hosting.com/Nx38s' target='_blank'>LinkedIn</a>
+          <a href='https://shlink.andes-hosting.com/UUQdF' target='_blank'>GitHub</a>
         </div>
 
       </section>

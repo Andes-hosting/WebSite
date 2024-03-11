@@ -2,6 +2,7 @@ import React from 'react'
 import Card from 'react-bootstrap/Card'
 import "./PlanCard.scss"
 import Btn from '../btn/Btn.js'
+import BtnPersonalized from '../btnPersonalized/BtnPersonalized.js'
 
 const PlanCard = ({plan, currency}) => {
   return (
@@ -11,7 +12,7 @@ const PlanCard = ({plan, currency}) => {
       <div className="titleCardContainer">
         <Card.Title className="titlePack">PACK</Card.Title>
         <Card.Title className="titleCard">{plan.name}</Card.Title>
-        {plan.prominent? 
+        {plan.prominent?
         <Card.Title className="prominentLabel">EL MÁS ELEGIDO</Card.Title>
         :
         ''
@@ -23,12 +24,12 @@ const PlanCard = ({plan, currency}) => {
         <>
           <Card.Subtitle className="textRam">{plan.ram} <span>RAM</span></Card.Subtitle>
           <Card.Subtitle className="textRam"><span id='Perz'>∞</span></Card.Subtitle>
-        </>   
+        </>
         :
-          <Card.Subtitle className="textRam">{plan.ram + ' GB '}<span>RAM</span></Card.Subtitle> 
+          <Card.Subtitle className="textRam">{plan.ram + ' GB '}<span>RAM</span></Card.Subtitle>
         }
-        {plan.name === 'PERSONALIZADO'? 
-        '' 
+        {plan.name === 'PERSONALIZADO'?
+        ''
         :
         <Card.Subtitle className="textPrice">{currency==='CLP'? '$ '+plan.price.CLP : plan.price.USD + ' USD'}</Card.Subtitle>
         }
@@ -39,7 +40,11 @@ const PlanCard = ({plan, currency}) => {
         <Card.Text className="textBody"> JUGADORES RECOMENDADOS: {plan.recomendedPlyers} </Card.Text>
       </div>
 
-      <Btn text="¡ME INTERESA!"/>
+      {plan.name === 'PERSONALIZADO'?
+        <BtnPersonalized text="¡ME INTERESA!" />
+        :
+        <Btn text="¡ME INTERESA!" />
+      }
 
     </Card.Body>
   </Card>

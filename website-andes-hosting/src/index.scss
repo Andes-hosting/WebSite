@@ -1,9 +1,9 @@
 body {
   background: linear-gradient(180deg, rgb(13, 0, 19) 0%, rgba(42, 0, 62, 1) 100%);
-  
-  #root {
+
+  /* #root {
     position: relative;
-  }
+  } */
   #root:before{
     content: ' ';
     display: block;

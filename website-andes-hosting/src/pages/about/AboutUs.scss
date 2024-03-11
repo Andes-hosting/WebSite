@@ -1,7 +1,7 @@
 @import './../../variables';
 
 .gradien{
-    background: linear-gradient(180deg, transparent 0%, rgba(11, 2, 16, 1) 15%, rgba(11, 2, 16, 1) 85%, transparent 100%),;
+    background: linear-gradient(180deg, transparent 0%, rgba(11, 2, 16, 1) 15%, rgba(11, 2, 16, 1) 85%, transparent 100%);
 
     .location-container{
         position: relative;
@@ -13,7 +13,7 @@
         width: 100%;
         height: 90vh;
         background-image: url("../../img/stars_bg.png");
-       
+
         .location-text-container{
             font-family: $font;
             font-style: normal;
@@ -55,7 +55,7 @@
             }
         }
     }
-    
+
 }
 .about-container {
     margin-bottom: $sidesMargin;
@@ -71,7 +71,6 @@
     justify-content: center;
     align-items: center;
     .about-title {
-        
         font-size: 45px;
         font-weight: 800;
         margin-bottom: 20px;

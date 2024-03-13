@@ -2,9 +2,9 @@ import React from 'react'
 import './Btn.scss'
 
 
-const Btn = ({ children, text, otherClass='' }) => {
+const Btn = ({ children, text, otherClass='', dir }) => {
   return (
-    <a href='https://shlink.andes-hosting.com/P8POu' target='_blank' className={`btn ${otherClass}`}>
+    <a href={dir} target='_blank' className={`btn ${otherClass}`}>
         {children}
         {text}
     </a>

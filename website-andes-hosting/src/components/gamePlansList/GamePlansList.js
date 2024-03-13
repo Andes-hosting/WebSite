@@ -7,9 +7,9 @@ const GamePlansList = ({game, currency}) => {
     <div  className="plansListContainer">
       <div className='gameLogo'>{game.logo}</div>
 
-      <div className='gameListRow'> 
+      <div className='gameListRow'>
         {game.plans.map((plan, index) => (
-            <PlanCard key={index} plan={plan} currency={currency} />
+            <PlanCard key={index} plan={plan} currency={currency}/>
         ))}
       </div>
     </div>

@@ -1,9 +1,16 @@
-import React from 'react'
+import React, {useState} from 'react'
 import './Footer.scss'
 import { Link } from 'react-router-dom'
 import smoothScroll from '../../utils/smoothScroll'
+import Bubble from '../bubble/Bubble'
 
 function Footer() {
+  const [isBubbleOpen, setIsBubbleOpen] = useState(false);
+
+  const handleHelpClick = () => {
+    setIsBubbleOpen(!isBubbleOpen); // Cambia el estado de Bubble al hacer clic en el enlace
+  };
+
   return (
     <section className='footerConainer'>
       <section className='links'>
@@ -27,7 +34,7 @@ function Footer() {
 
         <div className='Soporte'>
           <h3>Soporte</h3>
-          <a href='https://shlink.andes-hosting.com/kR3cx' target='_blank'>Necesito ayuda</a>
+          <span onClick={handleHelpClick} >Necesito ayuda</span>
           <a href='#faq'>Preguntas frecuentes</a>
         </div>
 
@@ -45,7 +52,7 @@ function Footer() {
       <section className='copyright'>
         <p>Copyright ©2024 AndesHosting. Todos los derechos reservados.</p>
       </section>
-
+      <Bubble isOpen={isBubbleOpen} toggleDropdown={handleHelpClick} />
     </section>
   )
 }

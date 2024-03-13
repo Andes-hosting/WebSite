@@ -14,10 +14,10 @@ function Header() {
       <Navbar/>
       <CarouselHeader/>
       <Sidebar/>
-      <Btn otherClass='helpBtn'>
-        <img src={helpIcon}/>  
-      </Btn>
-    </>  
+      {/* <Btn otherClass='helpBtn'>
+        <img src={helpIcon} alt='botón de ayuda'/>
+      </Btn> */}
+    </>
   )
 }
 

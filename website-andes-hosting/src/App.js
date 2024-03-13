@@ -6,7 +6,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
 import Layout from './pages/layout/Layout';
-
+import Bubble from './components/bubble/Bubble';
 
 function App() {
     return (
@@ -28,6 +28,7 @@ function App() {
                     </Routes>
                 </footer>
             </BrowserRouter>
+            {/* <Bubble></Bubble> */}
         </div>
 
     );

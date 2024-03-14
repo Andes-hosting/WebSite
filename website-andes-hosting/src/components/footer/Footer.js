@@ -3,6 +3,7 @@ import './Footer.scss'
 import { Link } from 'react-router-dom'
 import smoothScroll from '../../utils/smoothScroll'
 import Bubble from '../bubble/Bubble'
+/* import Tyc from '../../pages/Tyc/Tyc' */
 
 function Footer() {
   const [isBubbleOpen, setIsBubbleOpen] = useState(false);
@@ -11,14 +12,30 @@ function Footer() {
     setIsBubbleOpen(!isBubbleOpen); // Cambia el estado de Bubble al hacer clic en el enlace
   };
 
+  const smoothScrollTarget = (targetId) => {
+    const target = document.getElementById(targetId);
+    if (target) {
+      window.scrollTo({
+        top: target.offsetTop,
+        behavior: 'smooth'
+      });
+    }
+  };
+
+  const handleLinkClick = (targetId) => {
+    setTimeout(() => {
+      smoothScrollTarget(targetId)
+    }, 200)
+  }
+
   return (
     <section className='footerConainer'>
       <section className='links'>
         <div className='juegos'>
           <h3>Juegos</h3>
-          <Link to={"/"} onClick={() => smoothScroll('planes')}>Minecraft</Link>
-          <Link to={"/"} onClick={() => smoothScroll('planes')}>ARK</Link>
-          <Link to={"/"} onClick={() => smoothScroll('planes')}>Palworld</Link>
+          <Link to={"/#plans"} onClick={() => handleLinkClick('planes')}>Minecraft</Link>
+          <Link to={"/#plans"} onClick={() => handleLinkClick('planes')}>ARK</Link>
+          <Link to={"/#plans"} onClick={() => handleLinkClick('planes')}>Palworld</Link>
         </div>
 
         <div className='planes'>
@@ -28,14 +45,16 @@ function Footer() {
         </div>
 
         <div className='aboutUs'>
-          <h3>¿Quiénes somos?</h3>
-          <a href='#about'>¿Por qué Andes Hosting?</a>
+          <h3>Nosotros</h3>
+          <Link to={"/#about"} onClick={() => handleLinkClick('about')}>¿Por qué Andes Hosting?</Link>
+          <Link to='/Tyc' onClick={ () => smoothScrollTarget('top')} >Términos y Condiciones</Link>
+          <Link to='/Tyc' onClick={ () => smoothScrollTarget('top')} >Politica de Privacidad</Link>
         </div>
 
         <div className='Soporte'>
           <h3>Soporte</h3>
           <span onClick={handleHelpClick} >Necesito ayuda</span>
-          <a href='#faq'>Preguntas frecuentes</a>
+          <Link to={"/#faq"} onClick={() => handleLinkClick('faq')}>Preguntas frecuentes</Link>
         </div>
 
         <div className='RedesSociales'>

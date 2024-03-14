@@ -22,7 +22,7 @@ const Tyc=()=> {
     return(
         <div className="tyc" id="top">
             <div className="tyc-container">
-                <Logo className='tyc-logo' width={280} height={100} />
+                <a href="/"><Logo className='tyc-logo' width={280} height={100} /></a>
                 <div className="tyc-text">
                     <h1>Términos y Condiciones</h1>
                     <h2>Cuenta</h2>

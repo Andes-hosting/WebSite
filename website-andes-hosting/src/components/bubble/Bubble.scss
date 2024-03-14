@@ -1,0 +1,243 @@
+$bubble-color: #883cae;
+$bubble-figma: #00FFF9/* #03BCB8 */;
+$bubble-icon: black;
+
+
+.fixed {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    z-index: 10;
+}
+
+.dropdown-toggle::after{
+    content: none;
+}
+
+.bubbleIcon {
+  padding-bottom: 5px;
+}
+
+.bubbleIcon img {
+  width: 36px;
+  height: 36px;
+}
+
+/* Estilo para el ícono "+" dentro del botón */
+/* .bubbleIcon {
+  transition: transform 0.3s ease;
+} */
+
+/* Cuando el menú está abierto, rota el ícono "+" */
+/* .bubbleOpen .bubbleIcon {
+  transform: rotate(45deg);
+}
+ */
+.btn.bubbleDefault {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 52px;
+  color: $bubble-icon;
+  background-color: $bubble-figma;
+  border-color: $bubble-figma;
+  opacity: 0.9;
+}
+
+.btn.bubbleDefault:hover {
+  background-color: $bubble-figma;
+  border-color: $bubble-figma;
+  color: $bubble-icon;
+  opacity: 1;
+}
+
+.btn.bubbleDefault:active,
+.btn.bubbleDefault:focus {
+  background-color: $bubble-figma !important;
+  border-color: $bubble-figma !important;
+  box-shadow: none !important;
+  color: $bubble-icon !important;
+}
+
+.bubbleBtn {
+  background-color: $bubble-figma;
+  border-color: $bubble-figma;
+  opacity: 1;
+}
+
+.bubbleBtn:hover {
+  background-color: $bubble-figma;
+}
+
+.bubbleBtn:focus {
+  background-color: $bubble-figma;
+  border-color: $bubble-figma;
+  box-shadow: none;
+}
+
+.bubbleOpen {
+  background-color: $bubble-figma;
+  border-color: $bubble-figma;
+}
+
+.bubbleOpen:focus {
+  background-color: $bubble-figma;
+  border-color: $bubble-figma;
+  box-shadow: 0 0 0 0.2rem rgba(136, 60, 174, 0.25);
+}
+
+.bubbleOpen:active {
+  background-color: $bubble-figma;
+  border-color: $bubble-figma;
+}
+
+ /* Estilo para el menú desplegable */
+.dropdown-menu {
+    /* position: absolute; */
+    /* right: 0; */
+    left: auto;
+    min-width: unset;
+    text-align: center;
+    background-color: transparent; /* Hacer el fondo transparente */
+    border: none; /* Quitar el borde */
+    height: 0; /* Inicialmente oculto */
+    overflow: hidden; /* Ocultar elementos fuera del contenedor */
+    transition: height 0.5s ease-in-out; /* Animación de transición */
+    margin-left: 0px;
+}
+
+/* Estilo para los ítems del menú desplegable */
+.dropdown-item {
+    background-color: transparent; /* Hacer el fondo transparente */
+    border: none; /* Quitar el borde */
+    border-radius: 50%;
+    margin-right: 0px;
+    margin-top: 5px;
+    animation: bubbleAnimation 0.25s ease-in-out forwards;
+    transform: scale(1);
+    opacity: 1;
+    width: 70px;
+    height: 70px;
+}
+
+.what {
+  border: white/* #25D366 */ 2px solid;
+}
+
+.tel {
+  border: white/* #2AABEE */ 2px solid;
+}
+
+
+/* Estilo para los íconos */
+.dropdown-item svg {
+    /* width: 30px;
+    height: 50px; */
+    padding-right: 0px;
+}
+
+.whatsapp {
+  fill: white;
+  color: white;
+}
+
+.telegram {
+  fill: white;
+  color: white;
+}
+
+/* Anula el efecto hover en los ítems del menú desplegable */
+.dropdown-item:hover {
+    background-color: transparent; /* Cambia el color de fondo cuando se hace hover a transparente */
+    color: inherit; /* Hereda el color de texto original */
+}
+
+.speed-dial-animation {
+    animation: speedDialAnimation 0.3s ease forwards;
+  }
+
+/* Animación para mostrar el menú desplegable */
+.dropdown-menu.show {
+    height: auto; /* Mostrar el menú desplegable */
+    animation: slideDown 0.3s ease; /* Animación de desplazamiento hacia abajo */
+}
+
+
+@keyframes speedDialAnimation {
+    0% {
+      opacity: 0;
+      transform: scale(0);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  @keyframes slideDown {
+    from {
+        height: 0; /* Inicialmente oculto */
+    }
+    to {
+        height: auto; /* Mostrar el menú desplegable */
+    }
+}
+
+@keyframes bubbleAnimation {
+    0% {
+      transform: scale(0); /* Inicialmente invisible */
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1); /* Escala ligeramente para crear el efecto de burbujeo */
+      opacity: 0.8; /* Opacidad parcial */
+    }
+    100% {
+      transform: scale(0.9); /* Tamaño normal */
+      opacity: 1; /* Opacidad completa */
+    }
+  }
+
+
+
+  /* Ajustar el retraso de la animación para cada ítem */
+  .dropdown-item:nth-child(1) {
+    animation-delay: 0.1s; /* Retraso para el primer ítem */
+  }
+
+  .dropdown-item:nth-child(2) {
+    animation-delay: 0.2s; /* Retraso para el segundo ítem */
+  }
+
+
+.dropdown-item {
+    transition: transform 0.2s ease, opacity 0.2s ease;
+  }
+
+
+  .dropdown-item {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+
+.dropdown-item:hover {
+    transform: scale(1);
+    opacity: 1;
+  }
+
+// Bubble.scss
+.bubble-container {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-menu-up {
+  position: absolute;
+  top: auto;
+  bottom: calc(100% + 10px); /* Ajusta el valor según sea necesario */
+  left: 0;
+}

@@ -2,7 +2,6 @@ $bubble-color: #883cae;
 $bubble-figma: #00FFF9/* #03BCB8 */;
 $bubble-icon: black;
 
-
 .fixed {
     position: fixed;
     bottom: 30px;
@@ -23,16 +22,6 @@ $bubble-icon: black;
   height: 36px;
 }
 
-/* Estilo para el ícono "+" dentro del botón */
-/* .bubbleIcon {
-  transition: transform 0.3s ease;
-} */
-
-/* Cuando el menú está abierto, rota el ícono "+" */
-/* .bubbleOpen .bubbleIcon {
-  transform: rotate(45deg);
-}
- */
 .btn.bubbleDefault {
   border-radius: 50%;
   width: 70px;
@@ -117,10 +106,12 @@ $bubble-icon: black;
     margin-right: 0px;
     margin-top: 5px;
     animation: bubbleAnimation 0.25s ease-in-out forwards;
-    transform: scale(1);
     opacity: 1;
     width: 70px;
     height: 70px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+    transform: scale(1);
+    opacity: 0;
 }
 
 .what {
@@ -131,11 +122,8 @@ $bubble-icon: black;
   border: white/* #2AABEE */ 2px solid;
 }
 
-
 /* Estilo para los íconos */
 .dropdown-item svg {
-    /* width: 30px;
-    height: 50px; */
     padding-right: 0px;
 }
 
@@ -153,6 +141,8 @@ $bubble-icon: black;
 .dropdown-item:hover {
     background-color: transparent; /* Cambia el color de fondo cuando se hace hover a transparente */
     color: inherit; /* Hereda el color de texto original */
+    transform: scale(1);
+    opacity: 1;
 }
 
 .speed-dial-animation {
@@ -162,9 +152,8 @@ $bubble-icon: black;
 /* Animación para mostrar el menú desplegable */
 .dropdown-menu.show {
     height: auto; /* Mostrar el menú desplegable */
-    animation: slideDown 0.3s ease; /* Animación de desplazamiento hacia abajo */
+    animation: slideDown 0.3s; /* Animación de desplazamiento hacia abajo */
 }
-
 
 @keyframes speedDialAnimation {
     0% {
@@ -201,8 +190,6 @@ $bubble-icon: black;
     }
   }
 
-
-
   /* Ajustar el retraso de la animación para cada ítem */
   .dropdown-item:nth-child(1) {
     animation-delay: 0.1s; /* Retraso para el primer ítem */
@@ -210,23 +197,6 @@ $bubble-icon: black;
 
   .dropdown-item:nth-child(2) {
     animation-delay: 0.2s; /* Retraso para el segundo ítem */
-  }
-
-
-.dropdown-item {
-    transition: transform 0.2s ease, opacity 0.2s ease;
-  }
-
-
-  .dropdown-item {
-    transform: scale(0);
-    opacity: 0;
-  }
-
-
-.dropdown-item:hover {
-    transform: scale(1);
-    opacity: 1;
   }
 
 // Bubble.scss

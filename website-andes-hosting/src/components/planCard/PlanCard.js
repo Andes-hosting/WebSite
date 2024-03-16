@@ -66,7 +66,7 @@ const PlanCard = ({plan, currency}) => {
         {plan.name === 'PERSONALIZADO'?
         ''
         :
-        <Card.Subtitle className="textPrice">{currency==='CLP'? '$ '+plan.price.CLP : plan.price.USD + ' USD'}</Card.Subtitle>
+        <Card.Subtitle className="textPrice">{currency==='CLP'? '$ '+plan.price.CLP : '$ ' + plan.price.USD + ' USD'}</Card.Subtitle>
         }
       </div>
 

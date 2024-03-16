@@ -5,7 +5,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 
 const Plans = () => {
-  const [currency, setCurrency] = useState('CLP')
+  const [currency, setCurrency] = useState('USD')
 
   return (
     <div className="plans">

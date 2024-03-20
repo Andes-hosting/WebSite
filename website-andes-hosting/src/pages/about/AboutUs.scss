@@ -32,7 +32,7 @@
             .location-text{
                 font-size: 20px;
                 font-weight: 400;
-                span{
+                .about-bold{
                     font-weight: 700;
                 }
             }
@@ -80,7 +80,8 @@
         font-size: 20px;
         font-weight: 500;
         width: 73%;
-        span{
+        text-wrap: pretty;
+        .about-bold{
             font-weight: 700;
         }
     }
@@ -201,10 +202,19 @@
     }
 }
 
-@media only screen and (max-width: 530px) {
+@media only screen and (max-width: 600px) {
     .about-container{
+        .about-text{
+
+        }
         .rocket{
             width: 16px;
         }
+    }
+}
+/* aqui */
+@media only screen and (max-width: 400px){
+    .about-container{
+        margin-bottom: 100px;
     }
 }

@@ -11,7 +11,7 @@ const Pterodactyl = () => {
     <div className="ptero-container">
         <h2 className="ptero-title">ADMINISTRA TUS SERVIDORES CON:</h2>
         <img src={image_logo} alt="Pterodactyl logo"/>
-        <p className="ptero-text">Descubre la revolución en la gestión de servidores de videojuegos con Pterodactyl. Nuestra elección del panel de control Pterodactyl no solo garantiza un rendimiento excepcional y estabilidad inigualable, sino que también ofrece una interfaz intuitiva que pone el poder de la administración de servidores en manos de nuestros clientes. Con Pterodactyl, la experiencia de juego se eleva a nuevas alturas, permitiendo a nuestros usuarios tener el control total desu experiencia de hosting con facilidad y eficiencia. ¡Experimenta la excelencia en administración de servidores con Pterodactyl, solo en nuestro servicio de hosting!</p>
+        <p className="ptero-text">Descubre la revolución en la gestión de servidores de videojuegos con Pterodactyl. Nuestra elección del panel de control Pterodactyl no solo garantiza un rendimiento excepcional y estabilidad inigualable, sino que también ofrece una interfaz intuitiva que pone el poder de la administración de servidores en manos de nuestros clientes.<span className='ptero-delete'> Con Pterodactyl, la experiencia de juego se eleva a nuevas alturas, permitiendo a nuestros usuarios tener el control total desu experiencia de hosting con facilidad y eficiencia. ¡Experimenta la excelencia en administración de servidores con Pterodactyl, solo en nuestro servicio de hosting!</span></p>
     </div>
     <div className="img-section-background">
         <div className= "img-container">

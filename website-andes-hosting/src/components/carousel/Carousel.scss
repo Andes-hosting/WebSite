@@ -22,8 +22,11 @@
             font-size: 20px;
             font-weight: 400;
             text-wrap: pretty;
+            .delete-responsive{
+                display: inline;
+            }
         }
-        span{
+        .carouselTitle{
             display: block;
             font-size: 45px;
             font-weight: 800;
@@ -65,7 +68,7 @@
                 margin-bottom: 20px;
                 width: 70%;
             }
-            span{
+            .carouselTitle{
                 font-size: 24px;
                 font-weight: 800;
             }
@@ -97,7 +100,7 @@
                 font-weight: 400;
                 width: 280px;
             }
-            span{
+            .carouselTitle{
                 font-size: 20px;
                 font-weight: 800;
             }
@@ -126,7 +129,7 @@
                 font-size: 14px;
                 font-weight: 400;
             }
-            span{
+            .carouselTitle{
                 font-size: 20px;
                 font-weight: 800;
             }
@@ -145,7 +148,7 @@
     .carouselContainer{
         .carouselInfo{
             h1{
-                font-size: 10px;
+                font-size: 12px;
                 font-weight: 700;
             }
             p{
@@ -153,7 +156,7 @@
                 font-weight: 400;
                 width: 200px;
             }
-            span{
+            .carouselTitle{
                 font-size: 12px;
                 font-weight: 800;
             }
@@ -172,19 +175,19 @@
     .carouselContainer{
         .carouselInfo{
             h1{
-                font-size: 8px;
+                font-size: 12px;
                 font-weight: 700;
             }
             p{
-                font-size: 8px;
+                font-size: 10px;
                 font-weight: 400;
             }
-            span{
+            .carouselTitle{
                 font-size: 10px;
                 font-weight: 800;
             }
             a{
-                font-size: 8px;
+                font-size: 10px;
                 .rocket{
                     width: 18px;
                 }
@@ -197,21 +200,24 @@
     .carouselContainer{
         .carouselInfo{
             h1{
-                font-size: 8px;
+                font-size: 12px;
                 font-weight: 700;
             }
             p{
-                font-size: 6px;
+                font-size: 10px;
                 font-weight: 400;
                 width: 150px;
                 margin-bottom: 10px;
+                .delete-responsive{
+                    display: none;
+                }
             }
-            span{
+            .carouselTitle{
                 font-size: 10px;
                 font-weight: 800;
             }
             a{
-                font-size: 6px;
+                font-size: 10px;
                 .rocket{
                     width: 16px;
                 }
@@ -225,21 +231,22 @@
         .carouselInfo{
             padding-top: 30px;
             h1{
-                font-size: 8px;
+                font-size: 12px;
                 font-weight: 700;
             }
             p{
-                font-size: 6px;
+                font-size: 10px;
                 font-weight: 400;
                 width: 150px;
-                margin-bottom: 5px;
+                margin-bottom: 10px;
             }
-            span{
+            .carouselTitle{
                 font-size: 10px;
                 font-weight: 800;
             }
             a{
-                font-size: 6px;
+                font-size: 8px;
+                padding: 4px 5px;
                 .rocket{
                     width: 12px;
                 }

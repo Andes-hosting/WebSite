@@ -5,13 +5,13 @@ import Dropdown from 'react-bootstrap/Dropdown';
 import DropdownButton from 'react-bootstrap/DropdownButton';
 
 const Plans = () => {
-  const [currency, setCurrency] = useState('CLP')
-  
+  const [currency, setCurrency] = useState('USD')
+
   return (
     <div className="plans">
-      
-      <DropdownButton id="dropdown-basic-button" title={ currency==='CLP'? `${currency} $ `: `${currency} `}>
-        <Dropdown.Item onClick={()=>setCurrency('CLP')}>CLP $</Dropdown.Item>
+
+      <DropdownButton id="dropdown-basic-button" title={ currency==='CLP'? `${currency} `: `${currency} `}>
+        <Dropdown.Item onClick={()=>setCurrency('CLP')}>CLP</Dropdown.Item>
         <Dropdown.Item onClick={()=>setCurrency('USD')}>USD</Dropdown.Item>
       </DropdownButton>
 

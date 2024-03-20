@@ -21,7 +21,7 @@ const BtnSection = ({ href, children, text, otherClass='' }) => {
   };
 
   return (
-    <a href={href} onClick={handleClick} className={`btn ${otherClass}`} >
+    <a href={href} onClick={handleClick} className={`btnSection ${otherClass}`} >
       {children}
       {text}
     </a>

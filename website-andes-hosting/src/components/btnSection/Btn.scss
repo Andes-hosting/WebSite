@@ -1,6 +1,6 @@
 @import './../../variables';
 
-.btn{
+.btnSection{
     background-color: $Color-cyan;
     border-radius: 10px;
     padding: 5px 20px;
@@ -8,6 +8,9 @@
     font-family: $font;
     font-size: 14px;
     font-weight: 500;
+    text-decoration: none;
+    color: black;
+    height: auto;
     &:hover{
         background-color: $Color-cyan-hover;
         color: black;
@@ -15,14 +18,20 @@
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1280px) {
- .btn{
+ .btnSection{
     font-size: 12px;
  }
 }
 
 @media only screen and (max-width: 768px) {
-    .btn{
+    .btnSection{
         font-size: 11px;
      }
 
+}
+
+@media (max-width: 650px) {
+    .btnSection{
+        font-size: 10px;
+     }
 }

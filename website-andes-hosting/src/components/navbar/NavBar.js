@@ -13,23 +13,22 @@ const NavBar = () => {
   };
   return (
     <>
-      <Navbar expand="lg">
+      <Navbar expand="lg" data-bs-theme="dark" >
         <Container className='container'>
           <Navbar.Brand as={Link} to='/' onClick={handleLogoClick}>
-            <Logo width={280} height={100} />
+            <Logo class="logo-andes" /* width={280} height={100} */ />
             {/* <img className='logo' src={logo} alt='Andes Hosting' /> */}
           </Navbar.Brand>
 
-          {/* <Navbar.Toggle aria-controls="basic-navbar-nav" /> */}
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto nav">
-              <Link to="/" onClick={() => smoothScroll('planes')} className='navLinks'>Planes</Link>
-              <Link to="/" onClick={() => smoothScroll('about')} className='navLinks'>¿Quiénes somos?</Link>
-              <Link to="/" onClick={() => smoothScroll('faq')} className='navLinks'>FAQ</Link>
+              <Nav.Link><Link to="/" onClick={() => smoothScroll('planes')} className='navLinks'>Planes</Link></Nav.Link>
+              <Nav.Link><Link to="/" onClick={() => smoothScroll('about')} className='navLinks'>¿Quiénes somos?</Link></Nav.Link>
+              <Nav.Link><Link to="/" onClick={() => smoothScroll('faq')} className='navLinks'>FAQ</Link></Nav.Link>
             </Nav>
           </Navbar.Collapse>
-
         </Container>
       </Navbar>
     </>

@@ -5,8 +5,12 @@
     display: flex;
     margin: 5px $sidesMargin;
     justify-content: space-between;
-    gap: 200px;
+    gap: 100px;
     align-items: center;
+    .logo-andes {
+        width: 280px;
+        height: 100px;
+    }
     .nav{
         display: flex;
         justify-content: space-evenly;
@@ -26,6 +30,31 @@
         margin-top: 5px;
         &:hover{
             font-weight: 700;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .container{
+        gap: 100px;
+        .nav{
+            justify-content: space-between;
+        }
+    }
+}
+
+@media (max-width: 1120px) {
+    .container{
+        gap: 50px;
+    }
+}
+
+@media (max-width: 990px) {
+    .container{
+        gap: 0px;
+        .logo-andes{
+            width: 140px;
+            height: 50px;
         }
     }
 }

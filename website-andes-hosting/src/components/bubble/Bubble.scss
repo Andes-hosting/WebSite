@@ -211,3 +211,66 @@ $bubble-icon: black;
   bottom: calc(100% + 10px); /* Ajusta el valor según sea necesario */
   left: 0;
 }
+
+
+@media only screen and (min-width: 768px) and (max-width: 1280px){
+  .fixed{
+    .dropup-start{
+      .btn.bubbleDefault{
+        width: 50px;
+        height: 50px;
+        .bubbleIcon{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img {
+            width: 30px;
+            height: 30px;
+          }
+        }
+      }
+      .dropdown-item{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        a {
+          width: 25px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .fixed{
+    bottom: 20px;
+    right: 10px;
+    .dropup-start{
+      .btn.bubbleDefault{
+        width: 50px;
+        height: 50px;
+        .bubbleIcon{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img {
+            width: 30px;
+            height: 30px;
+          }
+        }
+      }
+      .dropdown-item{
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        a {
+          width: 25px;
+        }
+      }
+    }
+  }
+}

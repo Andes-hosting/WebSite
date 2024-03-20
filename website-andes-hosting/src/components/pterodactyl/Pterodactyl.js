@@ -18,7 +18,7 @@ const Pterodactyl = () => {
             <img className="img-ptero" src={screen2} alt="Screenshot 2" width={540}/>
             <p className="img-text">Con Pterodactyl, simplificamos la gestión de tus servidores para que puedas enfocarte en lo que realmente importa: disfrutar del juego. Nuestra plataforma de código abierto te permite visualizar y administrar fácilmente todos los servidores adquiridos en nuestro servicio. </p>
         </div>
-        <div className= "img-container">
+        <div className= "img-container reverse">
             <p className="img-text2">Visualiza la consola de comandos y los recursos disponibles que tienen a disposición, además de los botones “Start”, “Restart”, “Stop”. La barra de navegación en la parte superior, que les permite moverse desde la consola a otros lugares con muchas más opciones.</p>
             <img className="img-ptero" src={screen1} alt="Screenshot 1"/>
         </div>

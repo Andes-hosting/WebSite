@@ -1,9 +1,11 @@
 @import './../../variables';
 
 .carouselContainer{
+    margin-top: 20px;
     width: 100% !important;
     position: relative;
     .carouselInfo{
+        padding-top: 20px;
         position: absolute;
         width: 27vw;
         top:40%;
@@ -13,17 +15,25 @@
         font-family: $font;
         color: $Color-white;
         h1{
-            font-size: 24px !important;
+            font-size: 32px ;
             font-weight: 700;
         }
         p{
             font-size: 20px;
             font-weight: 400;
+            text-wrap: pretty;
         }
         span{
             display: block;
             font-size: 45px;
             font-weight: 800;
+        }
+        a{
+            width: 80%;
+            padding: 10px 20px;
+            .rocket{
+                width: 26px;
+            }
         }
     }
     .carousel-indicators{
@@ -38,34 +48,78 @@
     width: 100vw;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1100px) {
+@media only screen and (max-width: 1320px) {
     .carouselContainer{
         .carouselInfo{
             width: 50vw;
             height: 20vw;
+            margin-top: 0px;
+            padding-top: 0px;
             h1{
-                font-size: 18px;
+                font-size: 20px;
                 font-weight: 700;
             }
             p{
                 font-size: 16px;
                 font-weight: 400;
+                margin-bottom: 20px;
+                width: 70%;
             }
             span{
                 font-size: 24px;
                 font-weight: 800;
             }
+            a{
+                width: auto;
+                font-size: 14px;
+                padding: 8px 10px;
+                .rocket{
+                    width: 22px;
+                }
+            }
         }
     }
 }
 
-@media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 900px) {
     .carouselContainer{
         .carouselInfo{
             width: 60vw;
             height: 45vw;
+            padding-top: 80px;
             h1{
-                font-size: 16px;
+                font-size: 18px;
+                font-weight: 700;
+            }
+            p{
+                font-size: 14px;
+                font-weight: 400;
+                width: 280px;
+            }
+            span{
+                font-size: 20px;
+                font-weight: 800;
+            }
+            a{
+                width: 40%;
+                font-size: 14px;
+                .rocket{
+                    width: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 730px) {
+    .carouselContainer{
+        .carouselInfo{
+            width: 60vw;
+            height: 45vw;
+            padding-top: 60px;
+            h1{
+                font-size: 18px;
                 font-weight: 700;
             }
             p{
@@ -75,6 +129,120 @@
             span{
                 font-size: 20px;
                 font-weight: 800;
+            }
+            a{
+                width: 40%;
+                font-size: 14px;
+                .rocket{
+                    width: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 670px) {
+    .carouselContainer{
+        .carouselInfo{
+            h1{
+                font-size: 10px;
+                font-weight: 700;
+            }
+            p{
+                font-size: 10px;
+                font-weight: 400;
+                width: 200px;
+            }
+            span{
+                font-size: 12px;
+                font-weight: 800;
+            }
+            a{
+                width: 40%;
+                font-size: 12px;
+                .rocket{
+                    width: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 557px){
+    .carouselContainer{
+        .carouselInfo{
+            h1{
+                font-size: 8px;
+                font-weight: 700;
+            }
+            p{
+                font-size: 8px;
+                font-weight: 400;
+            }
+            span{
+                font-size: 10px;
+                font-weight: 800;
+            }
+            a{
+                font-size: 8px;
+                .rocket{
+                    width: 18px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 490px){
+    .carouselContainer{
+        .carouselInfo{
+            h1{
+                font-size: 8px;
+                font-weight: 700;
+            }
+            p{
+                font-size: 6px;
+                font-weight: 400;
+                width: 150px;
+                margin-bottom: 10px;
+            }
+            span{
+                font-size: 10px;
+                font-weight: 800;
+            }
+            a{
+                font-size: 6px;
+                .rocket{
+                    width: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 420px){
+    .carouselContainer{
+        .carouselInfo{
+            padding-top: 30px;
+            h1{
+                font-size: 8px;
+                font-weight: 700;
+            }
+            p{
+                font-size: 6px;
+                font-weight: 400;
+                width: 150px;
+                margin-bottom: 5px;
+            }
+            span{
+                font-size: 10px;
+                font-weight: 800;
+            }
+            a{
+                font-size: 6px;
+                .rocket{
+                    width: 12px;
+                }
             }
         }
     }

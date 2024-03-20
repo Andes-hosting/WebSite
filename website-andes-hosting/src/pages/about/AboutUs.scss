@@ -135,6 +135,9 @@
         .about-text{
             font-size: 16px;
         }
+        .rocket{
+            width: 24px;
+        }
     }
 }
 
@@ -191,6 +194,17 @@
         }
         .about-text{
             font-size: 14px;
+        }
+        .rocket{
+            width: 24px;
+        }
+    }
+}
+
+@media only screen and (max-width: 530px) {
+    .about-container{
+        .rocket{
+            width: 16px;
         }
     }
 }

@@ -17,9 +17,11 @@ const CarouselHeader = () => {
             <div className='carouselInfo'>
                 <h1>Bienvenido a <span>ANDES HOSTING</span></h1>
                 <p>Tu mejor aliado para servidores de videojuegos. Con CPU ilimitada y hosting de baja latencia, garantizamos una experiencia de juego sin igual. Asistencia personalizada y servidores privados para una diversión libre de trolls. Únete ahora y lleva tu experiencia de juego al siguiente nivel.</p>
-                <BtnSection text="¡Contratar un servidor ahora!" href="#planes" >
-                    <RocketIcon/>
+
+                <BtnSection className='carouselButton' text="¡Contratar un servidor ahora!" href="#planes" >
+                    <RocketIcon className='carouselIcon' />
                 </BtnSection>
+
             </div>
 
             <Carousel pause={false} fade interval={3000}>

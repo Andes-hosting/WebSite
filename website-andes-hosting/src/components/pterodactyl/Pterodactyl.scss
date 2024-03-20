@@ -32,7 +32,7 @@
         font-size: 24px;
         color:$Color-white;
         font-weight: 400;
-     
+
         .img-text{
             text-align: left;
             padding: 20px;
@@ -101,4 +101,42 @@
         }
     }
 
+}
+
+@media only screen and (max-width: 768px) {
+    .ptero-container{
+        img{
+            width: 70%;
+        }
+        .ptero-title{
+            font-size: 18px;
+        }
+        .ptero-text{
+            font-size: 14px;
+            /* text-align: justify; */
+        }
+    }
+    .img-section-background{
+        .img-container{
+            display: flex;
+            flex-direction: column;
+            font-size: 14px;
+            .img-text{
+                padding: 10px;
+                /* text-align: justify; */
+                width: 80%;
+            }
+            .img-text2{
+                padding: 10px;
+                text-align: justify;
+                width: 80%;
+            }
+            .img-ptero{
+                width: 80%;
+            }
+        }
+        .reverse {
+            flex-direction: column-reverse;
+        }
+    }
 }

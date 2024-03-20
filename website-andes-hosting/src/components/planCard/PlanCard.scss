@@ -97,7 +97,7 @@
         width: 23%;
     }
 }
-    
+
 @media only screen and (max-width: 1290px){
         .gameListRow{
             margin: 0 !important;
@@ -132,7 +132,7 @@
         }
 
     }
-    
+
   }
 
 
@@ -169,6 +169,44 @@
         }
         .prominentLabel{
             top: 5%;
+        }
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .containerCard {
+        width: 200px !important;
+        padding: 10px;
+        height: 320px;
+        .containerCardBody{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            .titleCard {
+                font-size: 16px;
+            }
+            .titlePack {
+                font-size: 14px;
+            }
+            .textRam{
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+            .textPrice{
+                font-size: 16px;
+                width: auto;
+                height: auto;
+            }
+            .textBodyContainer{
+                .textBody{
+                    font-size: 11px;
+                }
+                margin-bottom: 30px;
+            }
+        }
+        .prominentLabel{
+            display: none;
         }
     }
 }

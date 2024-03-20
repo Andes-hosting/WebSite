@@ -1,12 +1,17 @@
-@media only screen and (min-width: 768px) and (max-width: 1280px) {
+@media only screen and (min-width: 900px) and (max-width: 1280px) {
     .rocket{
         width: 32px;
     }
    }
-   
-   @media only screen and (max-width: 768px) {
+/*
+   @media only screen and (max-width: 900px) {
         .rocket{
             width: 24px;
         }
    }
-   
+
+   @media (max-width: 530px){
+    .rocket{
+        width: 10px;
+    }
+   } */

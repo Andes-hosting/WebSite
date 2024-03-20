@@ -83,3 +83,13 @@
   }
 
 
+  @media only screen and (max-width: 700px) {
+    .plans{
+    #dropdown-basic-button{
+        top: 80px;
+    }
+    .carousel-indicators{
+        bottom: -10px;
+    }
+  }
+}

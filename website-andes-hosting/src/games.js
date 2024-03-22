@@ -26,9 +26,9 @@ const games = {
     palworld: {
         logo: <img src={palworld} alt="Palworld logo"/>,
         plans: [
-            { name: 'BRONCE', ram: "13", price:{CLP:13600 ,USD:14} , storage: 8, recomendedPlyers: 4, prominent: false, game: 'Palworld' },
-            { name: 'PLATA', ram: "15", price:{CLP:30400 ,USD:30} , storage: 8, recomendedPlyers: 10, prominent: true, game: 'Palworld' },
-            { name: 'ORO', ram: "20", price:{CLP:48800 ,USD:50} , storage: 12, recomendedPlyers: 16, prominent: false, game: 'Palworld' },
+            { name: 'BRONCE', ram: "8", price:{CLP:13600 ,USD:14} , storage: 4, recomendedPlyers: 4, prominent: false, game: 'Palworld' },
+            { name: 'PLATA', ram: "12", price:{CLP:18400 ,USD:19} , storage: 8, recomendedPlyers: 6, prominent: true, game: 'Palworld' },
+            { name: 'ORO', ram: "20", price:{CLP:30800 ,USD:31} , storage: 12, recomendedPlyers: 10, prominent: false, game: 'Palworld' },
             { name: 'PERSONALIZADO', ram: '', price:{CLP:'' ,USD:''}, storage: '∞', recomendedPlyers: '∞', prominent: false, game: 'Palworld' },
         ]
     },

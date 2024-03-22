@@ -8,7 +8,7 @@ const Plans = () => {
   /* const [currency, setCurrency] = useState('USD') */
   const initialCurrency = Intl.DateTimeFormat().resolvedOptions().timeZone === "America/Santiago" ? 'CLP' : 'USD';
   const [currency, setCurrency] = useState(initialCurrency);
-  console.log(Intl.DateTimeFormat().resolvedOptions().timeZone)
+  /* console.log(Intl.DateTimeFormat().resolvedOptions().timeZone) */
   return (
     <div className="plans">
 

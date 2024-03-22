@@ -22,13 +22,13 @@ const FAQ = () => {
         <Row>
           <Col xs={12} sm={6} lg={6}>
             {leftColumn.map((item, index) => (
-              <FaqItem key={index} eventKey={index} question={item.question} answer={item.answer} />
+              <FaqItem key={index} eventKey={index} question={item.question} answer={item.answer} url={item.url} answer2={item.answer2} />
             ))}
           </Col>
 
           <Col xs={12} sm={6} lg={6}>
             {rightColumn.map((item, index) => (
-              <FaqItem key={index + halfItems} eventKey={index + halfItems} question={item.question} answer={item.answer} />
+              <FaqItem key={index + halfItems} eventKey={index + halfItems} question={item.question} answer={item.answer} url={item.url} answer2={item.answer2} />
             ))}
           </Col>
         </Row>

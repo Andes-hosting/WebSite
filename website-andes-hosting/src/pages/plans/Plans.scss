@@ -51,21 +51,31 @@
     .dropdown-menu{
         background-color: rgba(41, 3, 59, 0.5647058824);
         min-width: 6%;
-
         .dropdown-item{
             color: white;
             border-radius: 0%;
             margin-top: 0px;
             animation: none;
-            width: auto;
+            width: 6%;
+            min-width: 6%;
             height: auto;
             opacity: 1;
+            font-size: 14px;
             &:hover{
                 background-color: #3F055B;
             }
         }
     }
+}
 
+@media only screen and (max-width: 768px) and (max-width: 1280px) {
+    .plans{
+        .dropdown-menu{
+            .dropdown-item{
+                font-size: 12px;
+            }
+        }
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -78,6 +88,11 @@
         h2{
             padding-top: 3%;
             font-size: 18px;
+        }
+        .dropdown-menu{
+            .dropdown-item{
+                font-size: 11px;
+            }
         }
     }
   }

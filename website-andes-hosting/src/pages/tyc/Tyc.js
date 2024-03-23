@@ -38,7 +38,7 @@ const Tyc=()=> {
                     <h2>Cancelaciones del servicio</h2>
                     <p>Pasados 30 días desde la finalización del periodo del servicio, se eliminarán todos los datos relacionados en nuestros servidores.
 
-        Para cancelar los servicios, el usuario debe realizar la solicitud dentro de los primeros 3 días después del pago, a través de nuestra área de facturación en <a href="mailto:contacto@andes-hosting.com">contacto@andes-hosting.com</a>. Consulte la política de reembolsos para obtener información detallada.</p>
+        Para cancelar los servicios, el usuario debe realizar la solicitud dentro de los primeros 3 días después del pago, a través de nuestra área de facturación en <a href="https://shlink.andes-hosting.com/04VDQ">contacto@andes-hosting.com</a>. Consulte la política de reembolsos para obtener información detallada.</p>
                     <h2>Uso del servicio</h2>
                     <p>Los servidores solo pueden utilizarse para los fines designados y no se permite la instalación ni el uso de programas de terceros no autorizados. El intento de acceso o interferencia con los datos de otros clientes resultará en la suspensión de los servicios.
 

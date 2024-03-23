@@ -202,6 +202,19 @@
     }
 }
 
+@media only screen and (max-width: 650px){
+    .gradien{
+        .location-container{
+            .location-text-container{
+                .about-location{
+                    position: absolute;
+                    transform: translate(100px,-50px);
+                }
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .about-container{
         .about-text{
@@ -211,10 +224,41 @@
             width: 16px;
         }
     }
+    .gradien{
+        .location-container{
+            .location-text-container{
+                .about-location{
+                    transform: translate(50px,-50px);
+                }
+            }
+        }
+    }
 }
+
+@media only screen and (max-width: 500px){
+    .gradien{
+        .location-container{
+            .location-text-container{
+                .about-location{
+                    transform: translate(20px,-30px);
+                }
+            }
+        }
+    }
+}
+
 /* aqui */
 @media only screen and (max-width: 400px){
     .about-container{
         margin-bottom: 100px;
+    }
+    .gradien{
+        .location-container{
+            .location-text-container{
+                .about-location{
+                    transform: translate(20px,-10px);
+                }
+            }
+        }
     }
 }

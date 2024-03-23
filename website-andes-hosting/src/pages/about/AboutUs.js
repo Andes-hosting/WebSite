@@ -22,7 +22,7 @@ const AboutUs = () => {
             <h3 className="location-over-title">Tenemos</h3>
             <h2 className="location-title">LA UBICACIÓN IDEAL</h2>
             <p className="location-text">Experimenta el rendimiento excepcional de nuestros servidores, combinado con una ubicación estratégica que asegura la mejor latencia en Sudamérica. Ofrecemos un servicio premium a un costo incomparable en toda la región. <span className='about-bold'>Tu éxito es nuestra prioridad!</span></p>
-            <p className='about-location'>Valparaíso, Chile <ChileFlag /></p>
+            <p className='about-location'><span className='about-location-text'>Valparaíso, Chile </span><ChileFlag /></p>
             {/* <p className='about-location-ms'>123ms</p> */}
           </div>
         </div>

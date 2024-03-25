@@ -1,6 +1,4 @@
-import React, { useRef } from 'react'
 import './Bubble.scss'
-import { useState } from 'react';
 import HelpIcon from '../helpIcon/HelpIcon';
 
 const Bubble = ({ isOpen, toggleDropdown }) => {

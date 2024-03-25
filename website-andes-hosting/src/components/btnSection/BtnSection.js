@@ -1,7 +1,5 @@
 import React from 'react'
 import './Btn.scss'
-import { Link } from 'react-router-dom'
-import smoothScroll from '../../utils/smoothScroll'
 
 
 const BtnSection = ({ href, children, text, otherClass='' }) => {

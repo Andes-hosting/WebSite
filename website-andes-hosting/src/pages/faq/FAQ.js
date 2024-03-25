@@ -3,8 +3,6 @@ import FaqItem from '../../components/faqItem/faqItem'
 import { Col, Row } from 'react-bootstrap'
 import faq from '../../faq'
 import './FAQ.scss'
-import BtnSection from '../../components/btnSection/BtnSection'
-import RocketIcon from '../../components/rocketIcon/RocketIcon'
 
 const FAQ = () => {
   //creo 2 columnas indemendientes

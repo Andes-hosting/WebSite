@@ -1,7 +1,6 @@
 import React, {useState} from 'react'
 import './Footer.scss'
 import { Link } from 'react-router-dom'
-import smoothScroll from '../../utils/smoothScroll'
 import Bubble from '../bubble/Bubble'
 /* import Tyc from '../../pages/Tyc/Tyc' */
 

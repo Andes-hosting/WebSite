@@ -2,7 +2,6 @@ import React from 'react'
 import Card from 'react-bootstrap/Card'
 import "./PlanCard.scss"
 import Btn from '../btn/Btn.js'
-import BtnPersonalized from '../btnPersonalized/BtnPersonalized.js'
 
 const PlanCard = ({plan, currency}) => {
   let dir;

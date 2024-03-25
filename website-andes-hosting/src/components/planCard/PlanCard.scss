@@ -49,7 +49,7 @@
             color: $Color-cyan;
             font-family: $font;
             font-weight: 600;
-            font-size: 50px;
+            font-size: 46px;
             text-align: center;
             width: 206px;
             height: 73px;
@@ -104,6 +104,9 @@
         .containerCardBody{
             .textRam{
                 font-size: 36px;
+            }
+            .textPrice{
+                font-size: 46px;
             }
         }
     }

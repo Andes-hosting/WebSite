@@ -3,13 +3,8 @@ import './App.scss';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 /* PAGES */
-import Header from './components/header/Header';
-import Footer from './components/footer/Footer';
-import Layout from './pages/layout/Layout';
-import Bubble from './components/bubble/Bubble';
 import Tyc from '../src/pages/tyc/Tyc'
 import Landing from '../src/pages/landing/Landing'
-import Plans from './pages/plans/Plans';
 
 function App() {
     return (

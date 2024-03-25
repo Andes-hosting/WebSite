@@ -1,13 +1,10 @@
 import React from 'react'
 import "./AboutUs.scss"
 import map from "../../img/latam.png"
-import chile from '../../img/chile.png'
 import ChileFlag from '../../components/chileFlag/ChileFlag.js'
 
 import Pterodactyl from '../../components/pterodactyl/Pterodactyl'
-import Btn from '../../components/btn/Btn'
 import RocketIcon from '../../components/rocketIcon/RocketIcon'
-import InfoLink from '../../components/infolink/InfoLink.js'
 import Benefits from '../../components/benefits/Benefits.js'
 import BtnSection from '../../components/btnSection/BtnSection.js'
 

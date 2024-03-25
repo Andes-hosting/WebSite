@@ -36,15 +36,21 @@
         .img-text{
             text-align: left;
             padding: 20px;
+            text-wrap: pretty;
         }
         .img-text2{
             text-align: right;
             padding: 20px;
+            text-wrap: pretty;
         }
         .img-ptero{
             width: 100%;
             /* width: 540px;
             height: 300px; */
+            transition: transform 150ms ease-out;
+            &:hover{
+                transform: scale(1.04);
+            }
         }
     }
 }

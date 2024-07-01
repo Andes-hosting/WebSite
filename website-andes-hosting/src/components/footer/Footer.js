@@ -63,6 +63,7 @@ function Footer() {
           <a href='https://shlink.andes-hosting.com/XQRLu' target='_blank'>Facebook</a>
           <a href='https://shlink.andes-hosting.com/Nx38s' target='_blank'>LinkedIn</a>
           <a href='https://shlink.andes-hosting.com/UUQdF' target='_blank'>GitHub</a>
+          <a href='https://shlink.andes-hosting.com/MmRsK' target='_blank'>Discord</a>
         </div>
 
       </section>

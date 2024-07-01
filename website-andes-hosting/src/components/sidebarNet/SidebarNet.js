@@ -3,6 +3,7 @@ import "./SidebarNet.scss"
 import IgIcon from '../igIcon/IgIcon.js'
 import TtIcon from '../ttIcon/TtIcon.js'
 import FbIcon from '../FbIcon/FbIcon.js'
+import DsIcon from '../dsIcon/DsIcon.js'
 
 const SidebarNet = () => {
   return (
@@ -10,6 +11,7 @@ const SidebarNet = () => {
         <IgIcon/>
         <TtIcon/>
         <FbIcon/>
+        <DsIcon/>
     </div>
   )
 }

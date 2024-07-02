@@ -8,10 +8,10 @@ import DsIcon from '../dsIcon/DsIcon.js'
 const SidebarNet = () => {
   return (
     <div class="sidebarContainer">
-        <IgIcon/>
-        <TtIcon/>
-        <FbIcon/>
-        <DsIcon/>
+      <DsIcon/>
+      <IgIcon/>
+      <TtIcon/>
+      <FbIcon/>
     </div>
   )
 }

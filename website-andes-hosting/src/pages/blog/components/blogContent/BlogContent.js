@@ -4,10 +4,10 @@ const BlogContent = ({ title, date, image, content }) => {
         <div className="blog-article my-4 d-flex flex-column align-items-center">
             <div className="blog-header">
                 <h1 className="blog-title">{title}</h1>
-                <p className="text-muted blog-date">{date}</p>
+                <p className="blog-date text-white">{date}</p>
             </div>
-            <div className="blog-image-container my-4 ">
-                <img src={image} alt={title} className="blog-image rounded" />
+            <div className="blog-image-container my-4 d-flex justify-content-center ">
+                <img src={image} alt={title} className="blog-image rounded border img-thumbnail w-75" />
             </div>
             <div className="blog-content m-4 w-75">
                 {content}

@@ -58,12 +58,12 @@ function Footer() {
 
         <div className='RedesSociales'>
           <h3>Redes Sociales</h3>
+          <a href='https://shlink.andes-hosting.com/MmRsK' target='_blank'>Discord</a>
           <a href='https://shlink.andes-hosting.com/LvEPt' target='_blank'>Instagram</a>
           <a href='https://shlink.andes-hosting.com/FCKcq' target='_blank'>TikTok</a>
           <a href='https://shlink.andes-hosting.com/XQRLu' target='_blank'>Facebook</a>
           <a href='https://shlink.andes-hosting.com/Nx38s' target='_blank'>LinkedIn</a>
           <a href='https://shlink.andes-hosting.com/UUQdF' target='_blank'>GitHub</a>
-          <a href='https://shlink.andes-hosting.com/MmRsK' target='_blank'>Discord</a>
         </div>
 
       </section>

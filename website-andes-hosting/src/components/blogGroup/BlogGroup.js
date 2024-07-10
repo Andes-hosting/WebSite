@@ -19,7 +19,7 @@ const BlogGroup = () => {
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer>
-                    <small className="text-muted">Fecha: 11 de Julio del 2024</small>
+                    <small className="text-muted">Fecha: 10 de Julio del 2024</small>
                 </Card.Footer>
                 </Link>
             </Card>

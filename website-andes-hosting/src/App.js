@@ -7,6 +7,7 @@ import Tyc from '../src/pages/tyc/Tyc'
 import Landing from '../src/pages/landing/Landing'
 import Blog from '../src/pages/blog/Blog'
 import Blog1 from './pages/blog/blogs/Blog1';
+import Blog2 from './pages/blog/blogs/Blog2';
 
 function App() {
     return (
@@ -16,7 +17,8 @@ function App() {
                     <Route path='/' element={<Landing/>} />
                     <Route path='/tyc' element={<Tyc/>} />
                     <Route path='/blog' element={<Blog/>} />
-                    <Route path='/blog/blog1' element={<Blog1/>} />
+                    <Route path='/blog/Demon-Slayer-Kimetsu-no-Yaiba-llega-al-Tablero-Virtual' element={<Blog2/>} />
+                    <Route path='/blog/Zenless-Zone-Zero-La-Nueva-Joya-de-HoYoverse' element={<Blog1/>} />
                     {/* <Route path='/planes' element={<Plans />} /> */}
                 </Routes>
             </BrowserRouter>

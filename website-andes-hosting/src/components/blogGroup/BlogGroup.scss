@@ -1,0 +1,5 @@
+.equal-height-img {
+  height: 300px; /* Ajusta la altura según tus necesidades */
+  object-fit: cover; /* Esto asegurará que la imagen se escale y recorte para llenar el contenedor */
+  width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+}

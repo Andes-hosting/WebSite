@@ -26,7 +26,7 @@ const Blog2 = () => {
             <div className="container-blog2 border text-white rounded">
             <BlogContent
                 title="Demon Slayer: Kimetsu no Yaiba llega al Tablero Virtual"
-                date="1 de Julio, 2024"
+                date="10 de Julio, 2024"
                 image={kimetsu}
                 content={blogContent}
             />

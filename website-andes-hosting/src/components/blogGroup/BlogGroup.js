@@ -8,7 +8,7 @@ const BlogGroup = () => {
     return (
         <CardGroup>
             <Card className="mb-5 mx-3 rounded overflow-hidden">
-                <Link to='/blog/blog1' style={{ textDecoration: 'none', color: 'inherit'}}>
+                <Link to='/blog/Zenless-Zone-Zero-La-Nueva-Joya-de-HoYoverse' style={{ textDecoration: 'none', color: 'inherit'}}>
                 <Card.Img variant="top" src={zonezs} />
                 <Card.Body>
                     <Card.Title className='fs-2'>Zenless Zone Zero: La Nueva Joya de HoYoverse</Card.Title>

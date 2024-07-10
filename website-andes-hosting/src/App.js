@@ -16,7 +16,7 @@ function App() {
                     <Route path='/' element={<Landing/>} />
                     <Route path='/tyc' element={<Tyc/>} />
                     <Route path='/blog' element={<Blog/>} />
-                    <Route path='/blog/blog1' element={<Blog1/>} />
+                    <Route path='/blog/Zenless-Zone-Zero-La-Nueva-Joya-de-HoYoverse' element={<Blog1/>} />
                     {/* <Route path='/planes' element={<Plans />} /> */}
                 </Routes>
             </BrowserRouter>

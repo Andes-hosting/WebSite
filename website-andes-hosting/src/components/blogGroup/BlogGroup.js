@@ -13,8 +13,8 @@ const BlogGroup = () => {
             <Card as={Link} to={'/blog/Eden-Genesis'} style={{ textDecoration: 'none', color: 'inherit'}} className="mb-5 mx-3 rounded overflow-hidden">
                 <Card.Img variant="top" src={eden} className='equal-height-img' />
                 <Card.Body>
-                    <Card.Title className='fs-1'>¡Eden Genesis: ¡La Aventura que No Te Puedes Perder!</Card.Title>
-                    <Card.Text className='fs-4'>
+                    <Card.Title className='fs-2'>¡Eden Genesis: ¡La Aventura que No Te Puedes Perder!</Card.Title>
+                    <Card.Text className='fs-5'>
                     ¡Eden Genesis: ¡La Aventura que No Te Puedes Perder!
                     </Card.Text>
                 </Card.Body>
@@ -26,8 +26,8 @@ const BlogGroup = () => {
             <Card as={Link} to={'/blog/Demon-Slayer-Kimetsu-no-Yaiba-llega-al-Tablero-Virtual'} style={{ textDecoration: 'none', color: 'inherit'}} className="mb-5 mx-3 rounded overflow-hidden">
                 <Card.Img variant="top" src={kimetsu} className='equal-height-img' />
                 <Card.Body>
-                    <Card.Title className='fs-1'>Demon Slayer: Kimetsu no Yaiba llega al Tablero Virtual</Card.Title>
-                    <Card.Text className='fs-4'>
+                    <Card.Title className='fs-2'>Demon Slayer: Kimetsu no Yaiba llega al Tablero Virtual</Card.Title>
+                    <Card.Text className='fs-5'>
                     Conviértete en el cazador Más Fuerte en este Nuevo Juego de Mesa virtual.
                     </Card.Text>
                 </Card.Body>
@@ -39,8 +39,8 @@ const BlogGroup = () => {
             <Card as={Link} to={'/blog/Zenless-Zone-Zero-La-Nueva-Joya-de-HoYoverse'} style={{ textDecoration: 'none', color: 'inherit'}} className="mb-5 mx-3 rounded overflow-hidden">
                 <Card.Img variant="top" src={zonezs} className='equal-height-img' />
                 <Card.Body>
-                    <Card.Title className='fs-1'>Zenless Zone Zero: La Nueva Joya de HoYoverse</Card.Title>
-                    <Card.Text className='fs-4'>
+                    <Card.Title className='fs-2'>Zenless Zone Zero: La Nueva Joya de HoYoverse</Card.Title>
+                    <Card.Text className='fs-5'>
                     Una aventura Cyberpunk que llega para impactar nuestras pantallas. Adentrémonos a un Futuro Distópico con Combates Inolvidables.
                     </Card.Text>
                 </Card.Body>

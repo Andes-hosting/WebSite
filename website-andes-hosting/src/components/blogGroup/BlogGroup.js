@@ -15,12 +15,12 @@ const BlogGroup = () => {
     return (
         <Row>
             <Col md={4} className="d-flex">
-                <Card as={Link} to={'/blog/Los-Mejores-Plugin-para-Potenciar-tu-Experiencia-en-Palworld'} style={{ textDecoration: 'none', color: 'inherit'}} className="mb-5 mx-3 rounded overflow-hidden">
+                <Card as={Link} to={'/blog/Lleva-tu-juego-al-siguiente-nivel-con-estos-mods-increíbles-para-Palworld'} style={{ textDecoration: 'none', color: 'inherit'}} className="mb-5 mx-3 rounded overflow-hidden">
                     <Card.Img variant="top" src={palw} className='equal-height-img' />
                     <Card.Body>
-                        <Card.Title className='fs-2'>Los Mejores Plugin para Potenciar tu Experiencia en Palworld</Card.Title>
+                        <Card.Title className='fs-2'>Lleva tu juego al siguiente nivel con estos mods increíbles para Palworld</Card.Title>
                         <Card.Text className='fs-5'>
-                        Si quieres llevar tu experiencia en Palworld al siguiente nivel, estos plugins son la clave.
+                        Si quieres llevar tu experiencia en Palworld al siguiente nivel, estos mods son la clave.
                         </Card.Text>
                     </Card.Body>
                     <Card.Footer>

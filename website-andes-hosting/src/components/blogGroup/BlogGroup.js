@@ -4,6 +4,7 @@ import zonezs from '../../img/zenless-zone-zero.webp'
 import kimetsu from '../../img/kimetsu.webp'
 import eden from '../../img/Eden-Genesis.webp'
 import palw from '../../img/palworld-blog.webp'
+import mine from '../../img/minecraft-blog.webp'
 /* import proximamente from '../../img/Proximamente.webp' */
 import { Link } from 'react-router-dom';
 import './BlogGroup.scss'
@@ -14,6 +15,21 @@ import Col from 'react-bootstrap/Col';
 const BlogGroup = () => {
     return (
         <Row>
+            <Col md={4} className="d-flex">
+                <Card as={Link} to={'/blog/¡Bienvenidos-gamers-de-Latinoamérica!'} style={{ textDecoration: 'none', color: 'inherit'}} className="mb-5 mx-3 rounded overflow-hidden">
+                    <Card.Img variant="top" src={mine} className='equal-height-img' />
+                    <Card.Body>
+                        <Card.Title className='fs-2'>¡Bienvenidos, gamers de Latinoamérica!</Card.Title>
+                        <Card.Text className='fs-5'>
+                        Si estás buscando llevar tu servidor de Minecraft al siguiente nivel, has llegado al lugar correcto.
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">Fecha: 01 de Agosto del 2024</small>
+                    </Card.Footer>
+                </Card>
+            </Col>
+
             <Col md={4} className="d-flex">
                 <Card as={Link} to={'/blog/Lleva-tu-juego-al-siguiente-nivel-con-estos-mods-increíbles-para-Palworld'} style={{ textDecoration: 'none', color: 'inherit'}} className="mb-5 mx-3 rounded overflow-hidden">
                     <Card.Img variant="top" src={palw} className='equal-height-img' />

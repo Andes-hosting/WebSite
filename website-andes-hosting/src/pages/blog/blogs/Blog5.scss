@@ -1,5 +1,4 @@
-
-.blog2 {
+.blog5 {
     background: linear-gradient(
     180deg,
     rgb(13, 0, 19) 0%,
@@ -25,11 +24,8 @@
 -moz-osx-font-smoothing: grayscale;
 box-sizing: border-box;
 }
-/*
-.container-blog1 {
-    margin: 100px 100px 0 100px;
-} */
-.container-blog2 {
+
+.container-blog5 {
     margin: 100px auto; // Cambiamos los márgenes laterales a auto para centrar el contenedor.
     max-width: 80%; // Limitar el ancho máximo del contenedor para centrar el contenido.
     padding: 20px; // Añadir relleno alrededor del contenido.
@@ -37,4 +33,3 @@ box-sizing: border-box;
     border-radius: 8px; // Borde redondeado para el contenedor.
     color: white;
 }
-

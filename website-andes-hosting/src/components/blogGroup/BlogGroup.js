@@ -6,6 +6,7 @@ import eden from '../../img/Eden-Genesis.webp'
 import palw from '../../img/palworld-blog.webp'
 import mine from '../../img/minecraft-blog.webp'
 import ark_ascended from '../../img/ark-ascended.webp'
+import mejores_servidores from '../../img/mejores-servidores.webp'
 /* import proximamente from '../../img/Proximamente.webp' */
 import { Link } from 'react-router-dom';
 import './BlogGroup.scss'
@@ -16,6 +17,21 @@ import Col from 'react-bootstrap/Col';
 const BlogGroup = () => {
     return (
         <Row>
+            <Col md={4} className="d-flex">
+                <Card as={Link} to={'/blog/Los-5-Mejores-Servidores-de-Videojuegos-en-LATAM'} style={{ textDecoration: 'none', color: 'inherit'}} className="mb-5 mx-3 rounded overflow-hidden">
+                    <Card.Img variant="top" src={mejores_servidores} className='equal-height-img' />
+                    <Card.Body>
+                        <Card.Title className='fs-2'>Los 5 Mejores Servidores de Videojuegos en LATAM: ¡Descubre el Perfecto para Tu Squad!</Card.Title>
+                        <Card.Text className='fs-5'>
+                        Si eres gamer como nosotros, sabes lo importante que es tener un buen servidor para jugar sin problemas.
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">Fecha: 14 de Agosto del 2024</small>
+                    </Card.Footer>
+                </Card>
+            </Col>
+
             <Col md={4} className="d-flex">
                 <Card as={Link} to={'/blog/¡Descubre-los-Mejores-Mods-para-ARK:-Survival-Ascended!'} style={{ textDecoration: 'none', color: 'inherit'}} className="mb-5 mx-3 rounded overflow-hidden">
                     <Card.Img variant="top" src={ark_ascended} className='equal-height-img' />

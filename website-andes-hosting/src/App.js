@@ -12,6 +12,7 @@ import Blog3 from './pages/blog/blogs/Blog3';
 import Blog4 from './pages/blog/blogs/Blog4';
 import Blog5 from './pages/blog/blogs/Blog5';
 import Blog6 from './pages/blog/blogs/Blog6';
+import Blog7 from './pages/blog/blogs/Blog7';
 
 function App() {
     return (
@@ -21,6 +22,7 @@ function App() {
                     <Route path='/' element={<Landing/>} />
                     <Route path='/tyc' element={<Tyc/>} />
                     <Route path='/blog' element={<Blog/>} />
+                    <Route path='/blog/Los-5-Mejores-Servidores-de-Videojuegos-en-LATAM' element={<Blog7/>} />
                     <Route path='/blog/¡Descubre-los-Mejores-Mods-para-ARK:-Survival-Ascended!' element={<Blog6/>} />
                     <Route path='/blog/¡Bienvenidos-gamers-de-Latinoamérica!' element={<Blog5/>} />
                     <Route path='/blog/Lleva-tu-juego-al-siguiente-nivel-con-estos-mods-increíbles-para-Palworld' element={<Blog4/>} />

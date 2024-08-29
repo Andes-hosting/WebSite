@@ -7,7 +7,7 @@ import palw from '../../img/palworld-blog.webp'
 import mine from '../../img/minecraft-blog.webp'
 import ark_ascended from '../../img/ark-ascended.webp'
 import mejores_servidores from '../../img/mejores-servidores.webp'
-/* import proximamente from '../../img/Proximamente.webp' */
+import minecraft_server from '../../img/minecraft_server.webp'
 import { Link } from 'react-router-dom';
 import './BlogGroup.scss'
 
@@ -17,6 +17,21 @@ import Col from 'react-bootstrap/Col';
 const BlogGroup = () => {
     return (
         <Row>
+            <Col md={4} className="d-flex">
+                <Card as={Link} to={'/blog/¿Por-Qué-Necesitas-Un-Servidor-de-Minecraft-Fiable?'} style={{ textDecoration: 'none', color: 'inherit'}} className="mb-5 mx-3 rounded overflow-hidden">
+                    <Card.Img variant="top" src={minecraft_server} className='equal-height-img' />
+                    <Card.Body>
+                        <Card.Title className='fs-2'>¿Por Qué Necesitas Un Servidor de Minecraft Fiable?</Card.Title>
+                        <Card.Text className='fs-5'>
+                        Si realmente quieres disfrutar de Minecraft sin interrupciones, necesitas un servidor de alto rendimiento y confiabilidad.
+                        </Card.Text>
+                    </Card.Body>
+                    <Card.Footer>
+                        <small className="text-muted">Fecha: 29 de Agosto del 2024</small>
+                    </Card.Footer>
+                </Card>
+            </Col>
+
             <Col md={4} className="d-flex">
                 <Card as={Link} to={'/blog/Los-5-Mejores-Servidores-de-Videojuegos-en-LATAM'} style={{ textDecoration: 'none', color: 'inherit'}} className="mb-5 mx-3 rounded overflow-hidden">
                     <Card.Img variant="top" src={mejores_servidores} className='equal-height-img' />

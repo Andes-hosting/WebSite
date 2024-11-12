@@ -1,23 +1,15 @@
 const FAQ = [
     /* Column 1 */
     { question: '¿Cómo puedo contactar con alguien de soporte?',
-    answer: `Puedes contactarte con nosostros siguiendo `,
-    url: 'https://shlink.andes-hosting.com/kR3cx',
-    answer2: '. Nuestro equipo está listo para ayudarte a través de WhatsApp, Email y Telegram.' },
+    answer: `Puedes contactarte con nosostros a través del chat en la burburja de abajo a la derecha. Nuestro equipo está listo para ayudarte a través de WhatsApp, Email y Telegram. `},
     { question: '¿Cómo elijo el plan adecuado para mis necesidades?',
-    answer: 'Si tienes dudas sobre qué plan elegir, contáctanos directamente a través de ',
-    url: 'https://shlink.andes-hosting.com/kR3cx',
-    answer2: '.  y te ayudaremos a elegir el adecuado para ti.' },
+    answer: 'Si tienes dudas sobre qué plan elegir, contáctanos directamente a través del chat en la burburja de abajo a la derecha.  y te ayudaremos a elegir el adecuado para ti. '},
     { question: '¿Es posible aumentar los recursos de mi servidor después de la compra?',
     answer: 'Sí, puedes aumentar los recursos de tu servidor y se te cobrará el proporcional de los recursos adicionales durante el resto de tiempo que queda de tu plan contratado.' },
     { question: '¿Es posible instalar plugins y mods en mi servidor de Minecraft?',
-    answer: 'Sí, una vez elijas una versión de Minecraft compatible con tus mods y/o plugins, puedes subir los archivos a la carpeta correspondiente en la sección de archivos del panel de administración de Pterodactyl. Si necesitas ayuda, contáctanos en nuestros canales de comunicación en ',
-    url: 'https://shlink.andes-hosting.com/kR3cx',
-    answer2: '.' },
+    answer: 'Sí, una vez elijas una versión de Minecraft compatible con tus mods y/o plugins, puedes subir los archivos a la carpeta correspondiente en la sección de archivos del panel de administración de Pterodactyl. Si necesitas ayuda, contáctanos en nuestros canales de comunicación a través del chat en la burburja de abajo a la derecha.'},
     { question: 'Para Minecraft ¿Puedo subir mi propio mundo al servidor?',
-    answer: 'Sí, puedes conectarte por protocolo SFTP al servidor para subir los archivos de tu mundo de Minecraft. Si necesitas ayuda o no sabes cómo hacerlo, contáctanos en ',
-    url: 'https://shlink.andes-hosting.com/kR3cx',
-    answer2: '.' },
+    answer: 'Sí, puedes conectarte por protocolo SFTP al servidor para subir los archivos de tu mundo de Minecraft. Si necesitas ayuda o no sabes cómo hacerlo, contáctanos a través del chat en la burburja de abajo a la derecha.'},
 
     /* Column 2 */
     { question: '¿Cuánto tiempo demora en crearse mi servidor?',
@@ -27,13 +19,9 @@ const FAQ = [
     { question: '¿Es posible reducir los recursos de mi servidor después de la compra?',
     answer: 'Sí, puedes reducirlos, pero no se realizará un reembolso por los recursos no utilizados.' },
     { question: 'Para Minecraft, ¿Puedo jugar con Bedrock y Java?',
-    answer: 'Sí, al seleccionar un servidor de Minecraft, elige la edición y luego la versión deseada. Si estás indeciso, contáctanos a través de ',
-    url: 'https://shlink.andes-hosting.com/kR3cx',
-    answer2: ' y te ayudaremos a elegir.' },
+    answer: 'Sí, al seleccionar un servidor de Minecraft, elige la edición y luego la versión deseada. Si estás indeciso, contáctanos a través del chat en la burburja de abajo a la derecha y te ayudaremos a elegir.'},
     { question: '¿Es posible migrar mi servidor a Andes Hosting?',
-    answer: 'Sí, puedes conectarte por protocolo SFTP al servidor para subir los archivos de tu mundo de Minecraft. Si necesitas ayuda o no sabes cómo hacerlo, contáctanos en ',
-    url: 'https://shlink.andes-hosting.com/kR3cx',
-    answer2: '.' }
+    answer: 'Sí, puedes conectarte por protocolo SFTP al servidor para subir los archivos de tu mundo de Minecraft. Si necesitas ayuda o no sabes cómo hacerlo, contáctanos a través del chat en la burburja de abajo a la derecha.'}
 ]
 
 export default FAQ

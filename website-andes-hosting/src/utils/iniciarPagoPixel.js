@@ -5,7 +5,7 @@ const iniciarPago = () => {
     const eventDate = new Date().toISOString();  // Fecha del evento
     const eventName = 'Iniciar Pago';            // Nombre del evento
     const eventUrl = window.location.href;      // URL de origen del evento
-    const eventSource = 'Origen de acción';     // Origen de la acción (ejemplo: "Button Click")
+    const eventSource = 'botón de me interesa en carrusel';     // Origen de la acción (ejemplo: "Button Click")
 
     // Parámetros del cliente
     const userAgent = navigator.userAgent;      // Agente de usuario del cliente (no cifrado)

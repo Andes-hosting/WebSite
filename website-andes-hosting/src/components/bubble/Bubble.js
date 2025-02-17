@@ -1,5 +1,6 @@
-import './Bubble.scss'
+import './Bubble.scss';
 import HelpIcon from '../helpIcon/HelpIcon';
+import contactoPixel from '../../utils/contactoPixel';
 
 const Bubble = ({ isOpen, toggleDropdown }) => {
     /* const [isOpen, setIsOpen] = useState(false);
@@ -22,7 +23,7 @@ const Bubble = ({ isOpen, toggleDropdown }) => {
                     /* ref={bubbleRef} // Asigna la referencia al botón */
                     class={`btn bubbleDefault ${isOpen ? 'bubbleOpen' : ''}`}
                     type="button"
-                    onClick={toggleDropdown}
+                    onClick={() => { toggleDropdown(); contactoPixel(); }}
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                         /* style={{ borderRadius: '50%', width: '80px', height: '80px', display: 'flex', justifyContent: 'center', alignItems: 'center', fontSize: '52px', color: 'white', background: '#883cae', border: '#883cae' }} */>
@@ -53,7 +54,7 @@ const Bubble = ({ isOpen, toggleDropdown }) => {
                 </ul>
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Bubble
+export default Bubble;
